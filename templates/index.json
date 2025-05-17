@@ -89,7 +89,7 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSCF3509.jpg",
+            "image": "shopify://shop_images/White_Dress_Hanging.jpg",
             "rotation": 0
           }
         }
@@ -154,7 +154,7 @@
         "image_TkY7kV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSCF2964.jpg",
+            "image": "shopify://shop_images/Three_Girls.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
