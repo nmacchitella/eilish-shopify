@@ -125,10 +125,10 @@
         "collection_rdAzdV": {
           "type": "collection",
           "settings": {
-            "collection": "accessories",
+            "collection": "bottom-landing-page",
             "products_count": 50,
             "title": "Icon Pieces",
-            "link_url": "shopify://collections/dresses",
+            "link_url": "shopify://collections/all",
             "link_text": "View all"
           }
         }
