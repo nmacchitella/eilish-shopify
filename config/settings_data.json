@@ -18,9 +18,9 @@
     "success_color": "#307a07",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
-    "heading_font": "assistant_n4",
+    "heading_font": "instrument_sans_n4",
     "heading_letter_spacing": 18,
-    "text_font": "assistant_n4",
+    "text_font": "nunito_n4",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
     "product_image_aspect_ratio": "tall_crop",
@@ -42,10 +42,10 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#efefef",
           "background_gradient": "",
-          "text_color": "#5c5c5c",
-          "primary_button_background": "#5c5c5c",
+          "text_color": "#1c1c1c",
+          "primary_button_background": "#1c1c1c",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
@@ -55,11 +55,11 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text_color": "#000000",
-          "primary_button_background": "#5c5c5c",
+          "text_color": "#1c1c1c",
+          "primary_button_background": "#1c1c1c",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#5c5c5c"
+          "circle_button_icon": "#1c1c1c"
         }
       },
       "scheme-3": {
