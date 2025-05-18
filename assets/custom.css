@@ -70,6 +70,13 @@
   padding-bottom: 1.25rem;
 }
 
+/* Product Page */
+
+.product-info .product-title,
+.product-info .price-list .h4 {
+  font-size: .8rem;
+}
+
 /* Media Content Heading */
 
 .content-over-media .h1 {
