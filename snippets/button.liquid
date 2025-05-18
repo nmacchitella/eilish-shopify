@@ -33,6 +33,8 @@ Supported variables
   capture class_attribute
     if style == 'link'
       echo 'link'
+    elsif style == 'link--outline'
+      echo 'link--outline'
     else
       echo 'button'
 
@@ -55,7 +57,7 @@ Supported variables
   endcapture
 
   capture style_attribute
-    if style != 'link'
+    if style != 'link' and style != 'link--outline'
       if background != blank and background != 'rgba(0,0,0,0)'
         echo '--button-background: ' | append: background.rgb | append: ';'
         echo '--button-outline-color: ' | append: background.rgb | append: ';'

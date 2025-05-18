@@ -34,4 +34,15 @@
   src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/Gill_Sans_Light.otf?v=1747583512');
 }
 
-/* Navigation */
+/* Utilities */
+
+.link--outline {
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  color: rgb(var(--button-background, var(--text-color)));
+  font-size: .625rem;
+  letter-spacing: .3rem;
+}

@@ -4,7 +4,10 @@
       --product-list-items-per-row: {{ section.settings.products_per_row_mobile | times: 1 }};
       --product-list-horizontal-spacing-factor: {{ section.settings.horizontal_spacing_factor }};
       --product-list-vertical-spacing-factor: {{ section.settings.vertical_spacing_factor }};
-      --product-list-default-column-gap: .3rem;
+    }
+
+    #shopify-section-{{ section.id }} .product-list {
+      --product-list-calculated-column-gap: .3rem;
     }
 
     .featured-collections-title {
@@ -14,13 +17,6 @@
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --product-list-items-per-row: {{ section.settings.products_per_row_desktop }};
-        --product-list-default-column-gap: .3rem;
-      }
-    }
-
-    @media screen and (min-width: 1400px) {
-      #shopify-section-{{ section.id }} .product-list {
-        --product-list-default-column-gap: .3rem;
       }
     }
   </style>
@@ -101,7 +97,7 @@
                 {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
 
                 <div class="justify-self-end container">
-                  {%- render 'button', href: button_link, style: 'link', content: block.settings.link_text -%}
+                  {%- render 'button', href: button_link, style: 'link--outline', content: block.settings.link_text -%}
                 </div>
               {%- endif -%}
             </div>
