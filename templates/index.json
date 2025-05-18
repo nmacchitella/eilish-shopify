@@ -75,9 +75,9 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 6,
         "horizontal_spacing_factor": 0.2,
         "vertical_spacing_factor": 0.6,
         "subheading": ""
