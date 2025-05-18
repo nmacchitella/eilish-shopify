@@ -58,3 +58,11 @@
   letter-spacing: 1px;
   padding-bottom: 1.25rem;
 }
+
+/* Text Content Sections Spacing */
+
+.multiple-media-with-text__content-wrapper .prose:not(.prose--tight) :where(:not(meta, span) + *) {
+  margin-block-start: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0px;
+}
