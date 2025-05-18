@@ -36,6 +36,11 @@
 
 /* Utilities */
 
+.link {
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
 .link--outline {
   text-transform: uppercase;
   border: none;
@@ -45,6 +50,12 @@
   color: rgb(var(--button-background, var(--text-color)));
   font-size: .625rem;
   letter-spacing: .3rem;
+}
+
+/* Header Drawer */
+
+:where(.modal, .drawer, .popover, .header-search)::part(close-button) {
+  place-items: center end;
 }
 
 /* Product Card */
@@ -57,6 +68,18 @@
   font-size: .75rem;
   letter-spacing: 1px;
   padding-bottom: 1.25rem;
+}
+
+/* Media Content Heading */
+
+.content-over-media .h1 {
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .content-over-media .prose:not(.prose--tight) :where(:not(meta, span) + *) {
+    margin-block-start: 2rem;
+  }
 }
 
 /* Text Content Sections Spacing */

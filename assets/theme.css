@@ -948,10 +948,10 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 .drawer {
   --distance-to-bleed: var(--drawer-body-padding-inline);
-  --drawer-header-padding-block: 1rem;
-  --drawer-header-padding-inline: 1.25rem;
-  --drawer-body-padding-block: 1.25rem;
-  --drawer-body-padding-inline: 1.25rem;
+  --drawer-header-padding-block: 2rem;
+  --drawer-header-padding-inline: 2rem;
+  --drawer-body-padding-block: 2rem;
+  --drawer-body-padding-inline: 2rem;
   --drawer-footer-padding-block: 1rem;
   --drawer-footer-padding-inline: 1.25rem;
   --drawer-max-width: min(92vw, 28.125rem);
@@ -1014,7 +1014,7 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 }
 
 .drawer--sm {
-  --drawer-max-width: min(92vw, 25rem);
+  --drawer-max-width: min(75vw, 25rem);
 }
 
 .drawer--center-body::part(body) {
