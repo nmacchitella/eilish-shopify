@@ -83,7 +83,7 @@ Supported variables
             assign next_media = product.media[product.featured_media.position] | default: product.media[1]
 
             if next_media != blank
-             echo next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', draggable: 'false'
+             echo next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-cover aspect-tall', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', draggable: 'false'
             endif
           endif
         -%}
