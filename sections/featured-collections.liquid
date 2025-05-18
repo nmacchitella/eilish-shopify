@@ -6,6 +6,10 @@
       --product-list-vertical-spacing-factor: {{ section.settings.vertical_spacing_factor }};
     }
 
+    .featured-collections-title {
+      font-size: 1rem;
+    }
+
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --product-list-items-per-row: {{ section.settings.products_per_row_desktop }};
@@ -20,7 +24,7 @@
       {%- assign wrapper_carousel_id = 'featured-collections-carousel-' | append: section.id -%}
 
       <div class="section-stack">
-        <div class="v-stack justify-self-center gap-4 text-center sm:gap-5">
+        <div class="v-stack gap-4 sm:gap-5">
           {%- if section.settings.subheading != blank -%}
             <p class="h6 text-center">{{- section.settings.subheading -}}</p>
           {%- endif -%}
@@ -34,7 +38,7 @@
               {%- endfor -%}
             </carousel-navigation>
           {%- else -%}
-            <h2 class="h2">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</h2>
+            <h2 class="h2 featured-collections-title">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</h2>
           {%- endif -%}
         </div>
 
