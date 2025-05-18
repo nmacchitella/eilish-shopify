@@ -33,7 +33,7 @@
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "image": "shopify://shop_images/Dress_On_Chair.jpg",
         "mobile_image": "shopify://shop_images/Dress_On_Chair.jpg",
