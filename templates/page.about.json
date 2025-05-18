@@ -21,15 +21,15 @@
     "image_with_text_AK7jKN": {
       "type": "image-with-text",
       "blocks": {
-        "richtext_G6NjAz": {
-          "type": "richtext",
+        "page_Vb9Cfj": {
+          "type": "page",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "page": "contact"
           }
         }
       },
       "block_order": [
-        "richtext_G6NjAz"
+        "page_Vb9Cfj"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
