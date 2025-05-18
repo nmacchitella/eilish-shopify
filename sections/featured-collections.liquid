@@ -4,6 +4,7 @@
       --product-list-items-per-row: {{ section.settings.products_per_row_mobile | times: 1 }};
       --product-list-horizontal-spacing-factor: {{ section.settings.horizontal_spacing_factor }};
       --product-list-vertical-spacing-factor: {{ section.settings.vertical_spacing_factor }};
+      --product-list-default-column-gap: .3rem;
     }
 
     .featured-collections-title {
@@ -13,6 +14,13 @@
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --product-list-items-per-row: {{ section.settings.products_per_row_desktop }};
+        --product-list-default-column-gap: .3rem;
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} .product-list {
+        --product-list-default-column-gap: .3rem;
       }
     }
   </style>
@@ -20,11 +28,11 @@
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
   <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-    <div class="container">
+    <div>
       {%- assign wrapper_carousel_id = 'featured-collections-carousel-' | append: section.id -%}
 
       <div class="section-stack">
-        <div class="v-stack gap-4 sm:gap-5">
+        <div class="v-stack gap-4 sm:gap-5 container">
           {%- if section.settings.subheading != blank -%}
             <p class="h6 text-center">{{- section.settings.subheading -}}</p>
           {%- endif -%}
@@ -92,8 +100,8 @@
               {%- if block.settings.link_text != blank -%}
                 {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
 
-                <div class="justify-self-center">
-                  {%- render 'button', href: button_link, content: block.settings.link_text -%}
+                <div class="justify-self-end container">
+                  {%- render 'button', href: button_link, style: 'link', content: block.settings.link_text -%}
                 </div>
               {%- endif -%}
             </div>
