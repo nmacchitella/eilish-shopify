@@ -24,7 +24,7 @@
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
     "show_button_transition": false,
-    "show_image_zoom_on_hover": true,
+    "show_image_zoom_on_hover": false,
     "stagger_products_apparition": false,
     "stagger_menu_apparition": false,
     "product_image_aspect_ratio": "tall_crop",
