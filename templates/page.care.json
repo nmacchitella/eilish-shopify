@@ -39,7 +39,7 @@
         "mobile_image": "shopify://shop_images/Dress_On_Chair.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "lg",
         "remove_vertical_spacing": true
       }
     }
