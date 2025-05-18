@@ -81,8 +81,6 @@
   border: 1px solid #101010;
 }
 
-
-
 /* Media Content Heading */
 
 .content-over-media .h1 {
@@ -101,4 +99,12 @@
   margin-block-start: 1rem;
   line-height: 1.6;
   letter-spacing: 0px;
+}
+
+/* Cart */
+
+.cart-subtotal-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

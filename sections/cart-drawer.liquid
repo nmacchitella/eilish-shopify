@@ -94,10 +94,6 @@
               </div>
             </cart-note-dialog>
           {%- endif -%}
-
-          {%- if section.settings.show_shipping_text -%}
-            <p class="text-subdued">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
-          {%- endif -%}
         </div>
       {%- endif -%}
 
@@ -107,6 +103,11 @@
           <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
         </div>
       {% endfor %}
+
+      <div class="cart-subtotal-section">
+        <p>Subtotal</p>
+        <p>{{- cart.total_price | money -}}</p>
+      </div>
 
       <div class="button-group">
         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
@@ -126,6 +127,10 @@
           {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', stretch: true -%}
         {%- endif -%}
       </div>
+
+      {%- if section.settings.show_shipping_text -%}
+        <p class="text-subdued">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
+      {%- endif -%}
     </form>
   {%- endif -%}
 </cart-drawer>
