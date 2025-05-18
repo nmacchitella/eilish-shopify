@@ -1,0 +1,35 @@
+/* File for custom css */
+
+/* Custom fonts */
+
+@font-face {
+  font-family: 'SackersGothicMedium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: 'swap';
+  src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/sackers-gothic-medium.ttf?v=1747582288');
+}
+
+@font-face {
+  font-family: 'SackersGothicLight', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: 'swap';
+  src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/sackers-gothic-std-light.otf?v=1747583468');
+}
+
+@font-face {
+  font-family: 'GillSansRegular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: 'swap';
+  src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/Gill_Sans.otf?v=1747583524');
+}
+
+@font-face {
+  font-family: 'GillSansLight', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: 'swap';
+  src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/Gill_Sans_Light.otf?v=1747583512');
+}

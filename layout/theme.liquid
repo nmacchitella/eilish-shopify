@@ -54,6 +54,7 @@
 
     {{ content_for_header }}
 
+    {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
   </head>
 
