@@ -77,6 +77,12 @@
   font-size: .8rem;
 }
 
+.product-info .buy-buttons {
+  border: 1px solid #101010;
+}
+
+
+
 /* Media Content Heading */
 
 .content-over-media .h1 {
