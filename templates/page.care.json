@@ -21,15 +21,15 @@
     "image_with_text_AK7jKN": {
       "type": "image-with-text",
       "blocks": {
-        "richtext_G6NjAz": {
-          "type": "richtext",
+        "page_kPxULN": {
+          "type": "page",
           "settings": {
-            "content": "<p>Wash less. Wear more.</p><p>Each EILISH piece comes with care instructions that honor both the garment and our planet.</p>"
+            "page": "care"
           }
         }
       },
       "block_order": [
-        "richtext_G6NjAz"
+        "page_kPxULN"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
