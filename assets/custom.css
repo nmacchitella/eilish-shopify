@@ -68,7 +68,7 @@
   }
 }
 
-/* Text Content Sections Spacing */
+/* Media With Text Section */
 
 .multiple-media-with-text__content-wrapper .prose:not(.prose--tight) :where(:not(meta, span) + *) {
   margin-block-start: 1rem;
@@ -78,6 +78,10 @@
 
 .multiple-media-with-text__content-wrapper .prose:not(.prose--tight) :where(:not(meta, span) + *) {
   font-size: 1.1rem;
+}
+
+.multiple-media-with-text__content-wrapper .button {
+  width: 100%;
 }
 
 /* Cart */
