@@ -27,6 +27,7 @@ Supported variables
 * aria_controls: the ID of the element controlled
 * focusable: if set to false, a tabindex="-1" is added to ensure the button is not focusable
 * block: an optional block to output theme editor attributes
+* sold_out: For atc button
 {%- endcomment -%}
 
 {% liquid
@@ -128,7 +129,7 @@ Supported variables
     {{- button_content -}}
   </a>
 {%- else -%}
-  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }} class="{% unless sold_out %}available{% endunless %}">
     {{- button_content -}}
   </button>
 {%- endif -%}

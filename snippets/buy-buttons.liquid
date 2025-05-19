@@ -79,14 +79,13 @@ Supported variables
           </gift-card-recipient>
         {%- endif -%}
 
-        <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--has-dynamic{% endif %}" form="{{ form_id }}">
-          {%- if product.selected_or_first_available_variant.available == false or show_payment_button and atc_button_background == blank and atc_button_text_color == blank -%}
-            {%- assign atc_button_style = 'outline' -%}
-          {%- else -%}
-            {%- assign atc_button_style = 'solid' -%}
+        <buy-buttons class="buy-buttons{% if product.selected_or_first_available_variant.available == true %} available{% endif %} {% if show_payment_button %}buy-buttons--has-dynamic{% endif %}" form="{{ form_id }}">
+          {%- if product.selected_or_first_available_variant.available == false  -%}
+            {%- assign sold_out = true -%}
           {%- endif -%}
+          {%- assign atc_button_style = 'solid' -%}
 
-          {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
+          {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true, sold_out: sold_out -%}
 
           {%- if show_payment_button -%}
             {{- form | payment_button -}}

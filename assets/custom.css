@@ -57,7 +57,7 @@
   border: 1px solid #101010;
 }
 
-.product-info .buy-buttons:hover {
+.product-info .buy-buttons.available:hover {
   border: 1px solid rgba(16, 16, 16, .4);
 }
 

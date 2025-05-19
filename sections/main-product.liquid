@@ -126,7 +126,7 @@
         </div>
       </div>
 
-      <buy-buttons class="buy-buttons" template="{{ product.template_suffix | escape }}" form="{{ product_form_id }}">
+      <buy-buttons class="buy-buttons {% if product.available == true %} available{% endif %}" template="{{ product.template_suffix | escape }}" form="{{ product_form_id }}">
         {%- liquid
           assign button_disabled = false
           assign button_style = 'solid'
