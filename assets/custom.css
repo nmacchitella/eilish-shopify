@@ -92,7 +92,17 @@
   gap: 16px;
 }
 
+.related-products-section-stack {
+  position: relative;
+}
+
+.product-carousel-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .product-carousel-buttons .prev-next-button[disabled] {
-  opacity: 1;
+  opacity: .3;
   visibility: visible;
 }
