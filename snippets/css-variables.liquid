@@ -15,6 +15,14 @@ note that this may have impact on different places.
   }
 
   @font-face {
+    font-family: 'SackersGothicLight';
+    font-style: normal;
+    font-weight: 400;
+    font-display: 'swap';
+    src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/ATSackersGothic-Light.woff2?v=1747605270');
+  }
+
+  @font-face {
     font-family: 'GillSansLight';
     font-style: normal;
     font-weight: 400;
@@ -91,6 +99,7 @@ note that this may have impact on different places.
 
     /* Font properties */
     --heading-font-family: 'SackersGothicMedium';
+    --heading-font-family-2: 'SackersGothicLight';
     --heading-font-weight: {{ settings.heading_font.weight }};
     --heading-font-style: {{ settings.heading_font.style }};
     --heading-text-transform: {{ settings.heading_text_transform }};
