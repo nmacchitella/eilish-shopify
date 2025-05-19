@@ -1,6 +1,4 @@
-{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
-
-<div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+<div class="section-spacing customer-auth">
   <div class="container container--xxs">
     <account-login class="customer-account-box">
       <div class="v-stack gap-6" id="login">
@@ -108,14 +106,6 @@
   "name": "t:sections.main_customers_login.name",
   "class": "shopify-section--main-customers-login",
   "tag": "section",
-  "settings": [
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:global.colors.scheme",
-      "default": "scheme-1"
-    }
-  ],
   "blocks": [
     {
       "type": "@app"

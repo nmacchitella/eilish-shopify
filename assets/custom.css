@@ -131,3 +131,9 @@
   opacity: .3;
   visibility: visible;
 }
+
+/* Account Pages */
+
+.customer-auth {
+  background: #fff;
+}
