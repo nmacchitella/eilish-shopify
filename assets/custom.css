@@ -84,10 +84,15 @@
   align-items: center;
 }
 
-/* Recommended Products */
+/* Related Products */
 
 .product-carousel-buttons {
   display: flex;
   justify-content: flex-end;
   gap: 16px;
+}
+
+.product-carousel-buttons .prev-next-button[disabled] {
+  opacity: 1;
+  visibility: visible;
 }
