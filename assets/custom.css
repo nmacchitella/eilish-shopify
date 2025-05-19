@@ -43,6 +43,7 @@
   font-size: .875rem;
   letter-spacing: 1px;
   padding-bottom: 1rem;
+  gap: .75rem;
   font-weight: 400;
 }
 
@@ -108,7 +109,7 @@
   align-items: center;
 }
 
-/* Related Products */
+/* Related and Recently Viewed Products */
 
 .product-carousel-buttons {
   display: flex;
