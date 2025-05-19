@@ -42,7 +42,7 @@
 .product-card__info {
   font-size: .875rem;
   letter-spacing: 1px;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
   font-weight: 400;
 }
 
@@ -75,14 +75,25 @@
 
 /* Media With Text Section */
 
+@media screen and (min-width: 1000px) {
+  .multiple-media-with-text__content-wrapper {
+    max-width: 345px;
+    margin: 0 auto;
+  }
+}
+
 .multiple-media-with-text__content-wrapper .prose:not(.prose--tight) :where(:not(meta, span) + *) {
   margin-block-start: 1rem;
   line-height: 1.4;
   letter-spacing: 0px;
 }
 
+.multiple-media-with-text__content-wrapper .h6 {
+  font-size: .625rem;
+}
+
 .multiple-media-with-text__content-wrapper .prose:not(.prose--tight) :where(:not(meta, span) + *) {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .multiple-media-with-text__content-wrapper .button {
