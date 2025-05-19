@@ -6,6 +6,22 @@ note that this may have impact on different places.
 {%- assign language_code = localization.language.iso_code | split: '-' | first -%}
 
 <style>
+  @font-face {
+    font-family: 'SackersGothicMedium';
+    font-style: normal;
+    font-weight: 400;
+    font-display: 'swap';
+    src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/ATSackersGothic-Medium_1.woff2?v=1747588273') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'GillSansLight';
+    font-style: normal;
+    font-weight: 400;
+    font-display: 'swap';
+    src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/GillSans-Light.woff2?v=1747600604') format('woff2');
+  }
+  
   {%- assign heading_font_italic = settings.heading_font | font_modify: 'style', 'italic' -%}
   {%- assign text_font_italic = settings.text_font | font_modify: 'style', 'italic' -%}
   {%- assign text_font_bold = settings.text_font | font_modify: 'weight', 'bolder' -%}
@@ -74,12 +90,12 @@ note that this may have impact on different places.
      */
 
     /* Font properties */
-    --heading-font-family: 'SackersGothicMedium', {{ settings.heading_font.fallback_families }};
+    --heading-font-family: 'SackersGothicMedium';
     --heading-font-weight: {{ settings.heading_font.weight }};
     --heading-font-style: {{ settings.heading_font.style }};
     --heading-text-transform: {{ settings.heading_text_transform }};
     --heading-letter-spacing: {% if language_code == 'ar' %}0{% else %}{{ settings.heading_letter_spacing | divided_by: 100.0 }}{% endif %}em;
-    --text-font-family: 'GillSansLight', {{ settings.text_font.fallback_families }};
+    --text-font-family: 'GillSansLight';
     --text-font-weight: {{ settings.text_font.weight }};
     --text-font-style: {{ settings.text_font.style }};
     --text-letter-spacing: {% if language_code == 'ar' %}0{% else %}{{ settings.text_font_letter_spacing | divided_by: 100.0 }}{% endif %}em;
