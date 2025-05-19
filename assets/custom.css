@@ -3,6 +3,7 @@
 /* Utilities */
 
 .link {
+  font-family: var(--font-heading-family);
   text-transform: uppercase;
   font-size: .8rem;
 }
