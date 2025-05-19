@@ -18,6 +18,11 @@
   letter-spacing: .3rem;
 }
 
+.button--outline:hover {
+  border: 1px solid black;
+  transition: none;
+}
+
 .section-header h2 {
   font-size: .8rem;
 }
