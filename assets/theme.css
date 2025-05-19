@@ -1,3 +1,22 @@
+/* Custom Fonts */
+
+@font-face {
+  font-family: 'SackersGothicMedium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: 'swap';
+  src: url('ATSackersGothic-Medium_1.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GillSansLight', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: 'swap';
+  src: url('GillSans-Light.woff2') format('woff2');
+}
+
+
 *, :before, :after {
   box-sizing: border-box;
   border-style: solid;
@@ -18,6 +37,7 @@ html {
 body {
   background: rgb(var(--page-background));
   font: var(--text-font-style) var(--text-font-weight) var(--text-base) / 1.65 var(--text-font-family);
+  font-family: 'GillSansLight';
   letter-spacing: var(--text-letter-spacing);
   margin: 0;
   position: relative;
@@ -7793,7 +7813,7 @@ product-rerender {
 }
 
 .heading, .h1, .h2, .h3, .h4, .h5, .h6, .prose :where(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--heading-font-family);
+  font-family: 'SackersGothicMedium';
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   letter-spacing: var(--heading-letter-spacing);
