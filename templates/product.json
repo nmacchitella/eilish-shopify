@@ -118,7 +118,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -137,7 +137,7 @@
       "name": "t:sections.recently_viewed_products.presets.recently_viewed_products.name",
       "settings": {
         "separate_section_with_border": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "hide_product_information": false,
         "stack_products": false,
         "products_count": 9,
