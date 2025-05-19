@@ -5,7 +5,7 @@
     <div class="container container--xs">
       <div class="empty-state">
         <div class="prose">
-          <h1 class="h4">{{ 'cart.general.title' | t }}</h1>
+          <h1 class="h4">Your Cart</h1>
           <p>{{ 'cart.general.empty' | t }}</p>
 
           {%- assign button_content = 'cart.general.continue_shopping' | t -%}
@@ -18,7 +18,7 @@
       <div class="section-stack">
         <div class="section-header justify-self-center text-center">
           <div class="v-stack gap-4">
-            <h1 class="h2">{{ 'cart.general.title' | t }}</h1>
+            <h1 class="h2">Your Cart</h1>
 
             {%- if settings.cart_show_free_shipping_bar -%}
               {%- render 'free-shipping-bar' -%}
