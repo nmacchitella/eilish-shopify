@@ -18,6 +18,10 @@
   letter-spacing: .3rem;
 }
 
+.section-header h2 {
+  font-size: .8rem;
+}
+
 /* Header Drawer */
 
 :where(.modal, .drawer, .popover, .header-search)::part(close-button) {
@@ -48,7 +52,7 @@
   border: 1px solid #101010;
 }
 
-/* Media Content Heading */
+/* Section Headings */
 
 .content-over-media .h1 {
   font-size: 1.5rem;
@@ -78,4 +82,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Recommended Products */
+
+.product-carousel-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
 }
