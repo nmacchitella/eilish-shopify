@@ -20,6 +20,7 @@ Supported variables
 * show_secondary_image: show or not the secondary media on hover. If nothing is set, the theme uses the default product card setting
 * show_swatches: show or not the swatches. The swatch type is inferred from setting, and will default to true if nothing is set.
 * hide_product_information: if set to true, all content (vendor, badge, title...) are not rendered, to create image-based grid
+* hide_product_price: if set to true, hides just the product price in the product information section
 * quick_buy_context: a unique text to dissociate quick buy if the same product is embedded multiple times
 {%- endcomment -%}
 
@@ -42,6 +43,10 @@ Supported variables
     assign show_prices = true
     assign show_secondary_image = show_secondary_image | default: settings.show_secondary_image, allow_false: true
     assign show_swatches = show_swatches | default: true, allow_false: true
+  endif
+
+  if hide_product_price
+    assign show_prices = false
   endif
 -%}
 

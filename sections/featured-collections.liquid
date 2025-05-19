@@ -57,7 +57,7 @@
                 {%- endif -%}
 
                 {%- for product in block.settings.collection.products limit: block.settings.products_count -%}
-                  {%- render 'product-card', product: product, reveal: should_reveal, position: forloop.index, hide_product_information: section.settings.hide_product_information, block: block -%}
+                  {%- render 'product-card', product: product, reveal: should_reveal, position: forloop.index, hide_product_information: section.settings.hide_product_information, hide_product_price: section.settings.hide_product_price, block: block -%}
                 {%- else -%}
                   {%- for i in (1..block.settings.products_count) -%}
                     {%- render 'product-card-placeholder', reveal: should_reveal, loop_index: forloop.index0, hide_product_information: section.settings.hide_product_information -%}
@@ -136,6 +136,12 @@
       "id": "hide_product_information",
       "label": "t:global.product_list.hide_product_information",
       "info": "t:global.product_list.hide_product_information_info"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_product_price",
+      "label": "Hide product price",
+      "info": "Hide only the product price"
     },
     {
       "type": "header",
