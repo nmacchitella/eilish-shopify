@@ -2247,6 +2247,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   text-align: center;
   align-content: start;
   justify-items: center;
+  gap: .75rem;
   display: grid;
 }
 
