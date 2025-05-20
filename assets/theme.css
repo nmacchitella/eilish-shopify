@@ -4567,6 +4567,12 @@ product-rerender {
   padding-block-end: min(var(--section-vertical-spacing), 3rem);
 }
 
+@media screen and (max-width: 699px) {
+  .footer {
+    padding-block-start: 3rem;
+  }
+}
+
 .footer__inner {
   row-gap: min(var(--section-vertical-spacing), 3rem);
   display: grid;

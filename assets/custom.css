@@ -35,6 +35,10 @@
 
 /* Footer */
 
+.footer-link-heading.h6, :where(.prose h6) {
+  font-size: .8rem;
+}
+
 .footer-link {
   color: #1c1c1c;
 }
@@ -51,6 +55,13 @@
   position: absolute;
   right: 4px;
   top: .65rem;
+}
+
+@media screen and (max-width: 699px) {
+  .footer-newsletter-block,
+  .footer__aside .payment-methods {
+    margin-top: 1.5rem;
+  }
 }
 
 /* Product Card */
