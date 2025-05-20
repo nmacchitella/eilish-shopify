@@ -4558,6 +4558,11 @@ product-rerender {
   padding-block-end: min(var(--section-vertical-spacing), 3rem);
 }
 
+.footer .container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .footer__inner {
   row-gap: min(var(--section-vertical-spacing), 3rem);
   display: grid;

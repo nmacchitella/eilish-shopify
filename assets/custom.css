@@ -134,6 +134,7 @@
 
 /* Account Pages */
 
-.customer-auth {
+.customer-auth,
+.customer-orders {
   background: #fff;
 }
