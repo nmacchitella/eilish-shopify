@@ -4559,13 +4559,14 @@ product-rerender {
 }
 
 .footer .container {
-  max-width: 1440px;
-  margin: 0 auto;
+
 }
 
 .footer__inner {
   row-gap: min(var(--section-vertical-spacing), 3rem);
   display: grid;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer__block-list {
