@@ -1,1 +1,33 @@
-{"sections":{"main":{"type":"main-customers-login","blocks":{"fields":{"type":"fields","settings":{}}},"block_order":["fields"],"settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-login",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {
+            "return_to": ""
+          }
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
+      "settings": {
+        "customer_login_instructions": "<p>Log in to view order history, to update your shipping information and to create and save a wishlist. Create a new account if you are having issues logging in.</p>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
