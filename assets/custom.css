@@ -39,6 +39,20 @@
   color: #1c1c1c;
 }
 
+.footer-newsletter-form {
+  position: relative;
+}
+
+.footer-newsletter-button {
+  border: none;
+  outline: none;
+  background: white;
+  width: fit-content;
+  position: absolute;
+  right: 4px;
+  top: .65rem;
+}
+
 /* Product Card */
 
 .product-card__info {

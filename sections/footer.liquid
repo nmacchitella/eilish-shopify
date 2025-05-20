@@ -107,10 +107,10 @@
                         {%- assign input_label = 'general.newsletter.email' | t -%}
                         {%- render 'input', name: 'contact[email]', label: input_label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
 
-                        <div class="footer-newsletter-button align-self-start">
-                          {%- assign button_label = 'general.newsletter.subscribe' | t -%}
-                          {%- render 'button', type: 'submit', content: button_label, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
-                        </div>
+                        <button type="submit" class="footer-newsletter-button">
+                          <span class="sr-only">Submit</span>
+                          {%- render 'icon' with 'arrow-right' -%}
+                        </button>
                       {%- endif -%}
                     {%- endform -%}
                   </div>
