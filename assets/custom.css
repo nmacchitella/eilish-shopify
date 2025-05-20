@@ -136,7 +136,7 @@
   visibility: visible;
 }
 
-/* Account Pages */
+/* Account and Auth Pages */
 
 .customer-auth,
 .customer-orders {
@@ -144,10 +144,32 @@
 }
 
 .customer-auth h1 {
-  font-size: .8rem;
+  font-size: .625rem;
   text-align: left;
 }
 
 .customer-auth p {
   text-align: left;
+  margin-top: .625rem;
+}
+
+.customer-auth-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+
+@media screen and (min-width: 700px) {
+  .customer-auth-container {
+    display: grid;
+    grid-template-columns: minmax(0, 500px) minmax(500px, 1fr);
+    gap: 24px;
+    place-items: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .customer-auth-container {
+    gap: 48px;
+  }
 }

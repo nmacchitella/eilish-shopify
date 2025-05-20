@@ -1,8 +1,8 @@
 <div class="section-spacing customer-auth">
-  <div class="container container--xxs">
+  <div class="container container--xxl customer-auth-container">
     <account-login class="customer-account-box">
-      <div class="v-stack gap-6" id="login">
-        <div class="v-stack gap-4">
+      <div class="v-stack gap-4" id="login">
+        <div class="v-stack">
           <h1 class="h3">{{ 'customer.login.title' | t }}</h1>
           <p>{{ section.settings.customer_login_instructions }}</p>
         </div>
@@ -98,6 +98,20 @@
         {%- endform -%}
       </div>
     </account-login>
+    {%- if section.settings.image != blank -%}
+      <picture>
+        {%- if section.settings.mobile_image != blank -%}
+          <source
+              media="(max-width: 699px)"
+              srcset="{{ section.settings.mobile_image | image_url: width: 400 }} 400w, {{ section.settings.mobile_image | image_url: width: 600 }} 600w, {{ section.settings.mobile_image | image_url: width: 800 }} 800w, {{ section.settings.mobile_image | image_url: width: 1000 }} 1000w"
+              width="{{ section.settings.mobile_image.width }}"
+              height="{{ section.settings.mobile_image.height }}"
+          >
+        {%- endif -%}
+
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: sizes: '100vw', widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+      </picture>
+    {%- endif -%}
   </div>
 </div>
 
@@ -116,6 +130,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
     }
   ],
   "blocks": [
