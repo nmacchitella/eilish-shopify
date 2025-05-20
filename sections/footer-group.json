@@ -22,6 +22,22 @@
             "menu_title": "About Us"
           }
         },
+        "links_wGLcQw": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": "Customer Service"
+          }
+        },
+        "links_rMADw7": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": "Follow Us"
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
@@ -34,6 +50,8 @@
       },
       "block_order": [
         "links",
+        "links_wGLcQw",
+        "links_rMADw7",
         "newsletter"
       ],
       "settings": {
