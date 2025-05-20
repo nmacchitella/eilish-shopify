@@ -4631,18 +4631,16 @@ product-rerender {
   .footer__aside .payment-methods {
     justify-content: end;
   }
+
+  .footer__block--newsletter {
+    max-width: 21.5rem;
+  }
 }
 
 @media screen and (min-width: 1150px) {
   .footer__block-list {
     justify-content: var(--footer-content-justify-items);
-    column-gap: 3.75rem;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .footer__block-list {
-    column-gap: 5rem;
+    column-gap: 3rem;
   }
 }
 
