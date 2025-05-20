@@ -63,7 +63,7 @@
                   {%- assign menu = block.settings.menu -%}
 
                   {%- if menu != blank and menu.links.size > 0 -%}
-                    <div class="v-stack gap-4 sm:gap-5">
+                    <div class="v-stack gap-4 sm:gap-5 mobile-hide">
                       {%- if block.settings.show_menu_title != blank -%}
                         <p class="h6 footer-link-heading">{{ block.settings.menu_title | default: menu.title }}</p>
                       {%- endif -%}
@@ -76,6 +76,25 @@
                         {%- endfor -%}
                       </ul>
                     </div>
+                    <accordion-disclosure class="accordion footer-accordion tablet-up-hide">
+                      <details class="accordion__disclosure group" aria-expanded="false">
+                        <summary>
+                          <span class="footer-accordion__toggle h6">
+                            {%- if block.settings.show_menu_title != blank -%}
+                              <span class="h6 footer-link-heading">{{ block.settings.menu_title | default: menu.title }}</span>
+                            {%- endif -%}
+                            {%- render 'icon' with 'chevron-down', class: 'group-expanded:rotate' -%}
+                          </span>
+                        </summary>
+                        <div class="accordion__content">
+                          {%- for link in menu.links -%}
+                            <li class="footer-accordion-link">
+                              <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
+                            </li>
+                          {%- endfor -%}
+                        </div>
+                      </details>
+                    </accordion-disclosure>
                   {%- endif -%}
 
                 {%- when 'newsletter' -%}

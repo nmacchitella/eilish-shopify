@@ -4583,7 +4583,7 @@ product-rerender {
 .footer__block-list {
   justify-content: start;
   align-items: start;
-  gap: min(var(--section-vertical-spacing), 2.5rem);
+  gap: 0;
   display: grid;
 }
 
