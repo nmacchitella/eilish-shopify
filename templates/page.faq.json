@@ -1,1 +1,129 @@
-{"sections":{"faq":{"type":"faq","blocks":{"category":{"type":"category","settings":{"title":"Order","icon":"none","icon_width":16}},"question-1":{"type":"question","settings":{"question":"<strong>What is your quality guarantee?<\/strong>","answer":"<p>We stand behind our products. If you receive a damaged item from Eilish we do apologize! Please email info@eilishstudio.com right away so we can facilitate a replacement.<\/p>"}},"question-2":{"type":"question","settings":{"question":"<strong>How will I know if my order has shipped?<\/strong>","answer":"<p>You will receive an email confirmation at the time you place your order. Each time your order status changes, you will receive an email notification. If you do not receive an email, we highly recommend checking your spam folders or contacting us directly at info@eilishstudio.com<\/p>"}},"question-3":{"type":"question","settings":{"question":"<strong>What if I need to modify or cancel my order?<\/strong>","answer":"<p>Once your order has been submitted, we have limited ability to make modifications. We will try our best to accommodate, however we cannot guarantee these changes will be made after your order is submitted. Please email info@eilishstudio.com as soon as possible with any modification or cancellation requests.<\/p>"}},"question_pmdTBM":{"type":"question","settings":{"question":"<strong>What countries do you ship to?<\/strong>","answer":"<p>We ship worldwide to over a hundred countries. If your country is listed on our checkout page, then we ship there! If your country is not available on our checkout, get in touch with us and we can try to arrange alternative shipping.<\/p>"}},"question_6XryeX":{"type":"question","settings":{"question":"<strong>How long will it take for my order to arrive?<\/strong>","answer":"<p>All orders made in the US are shipped with USPS Priority. Shipments are collected from our studio  Monday to Friday (excluding public holidays) at approximately 12 pm local time. You will be provided with a tracking number that you can use to follow your orders progress.<\/p><p>Shipping times can vary, but here is rough guide;<\/p><p>EU & UK : 5-10 working days<\/p><p>USA & Canada: 2-5 business days<\/p><p>Australia, New Zealand & Japan : 5-10 working days<\/p><p><\/p><p>Note: orders placed during sale season may experience shipping delays.<\/p><p>Rest of the world: Anywhere between 3-6 working days depending on your location and other variables.<\/p>"}},"question_UWTR4J":{"type":"question","settings":{"question":"<strong>Can I leave instructions for delivery?<\/strong>","answer":"<p>Yes. You can leave delivery notes on our checkout when paying for your order. These notes are shared with the courier. The courier will also be given the phone number you provide us, so they may also contact you directly.<\/p>"}},"question_aJVifY":{"type":"question","settings":{"question":"<strong>Can I change my shipping address after I order?<\/strong>","answer":"<p>Maybe.<\/p><p>If your order has not yet been shipped, then yes we can change the address for you. Just open a support ticket and let us know.<\/p><p>You will receive an email informing you when your order has shipped. If you need to change your shipping address after this point, your best option is to contact your local UPS agent directly as your order is now in their custody. Visit the UPS website for contact details of your local agent.<\/p>"}},"category_GgeUQq":{"type":"category","settings":{"title":"Other","icon":"none","icon_width":16}},"question_XVUCzm":{"type":"question","settings":{"question":"<strong>What information do you keep about me?<\/strong>","answer":"<p>We store your name and contact details in addition to your previous purchases and browsing history on our site. We do not store any credit card or payment details with the exception of banking transaction codes.<br\/><\/p>"}},"question_9jz83L":{"type":"question","settings":{"question":"<strong>Do you advertise?<\/strong>","answer":"<p>Yes. We love what we do and want to share it with as many people as possible. We primarily advertise on Google and Facebook’s ad networks. We aim to make this advertising as original as possible and hope it does not annoy you too much. You can of course always block these ads in your Google and Facebook settings.<\/p>"}},"question_MdgNpn":{"type":"question","settings":{"question":"<strong>Can I have all my data removed from your business?<\/strong>","answer":"<p>Yes. Our web system conforms with your right to be forgotten. Simply open a support ticket requesting to have all your data wiped and we will remove it. Our system will also alert third parties to your request so that they may remove data that relates to your relationship with us.<\/p><p>Some notes on this issue, this is an irreversible process, all your data including your email address will be wiped from our system (we won’t be able to contact you after it is completed). By law we are required to retain your transaction history for tax and legal purposes, but this data is ring fenced.<\/p><p>If you change your mind, you can of course always come back and buy from us again, but our system will treat you as a brand new customer.<\/p>"}}},"block_order":["category","question-1","question-2","question-3","question_pmdTBM","question_6XryeX","question_UWTR4J","question_aJVifY","category_GgeUQq","question_XVUCzm","question_9jz83L","question_MdgNpn"],"settings":{"color_scheme":"","separate_section_with_border":true,"show_categories":false,"subheading":"","title":"F.A.Q.","content":""}}},"order":["faq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What is your quality guarantee?</strong>",
+            "answer": "<p>We stand behind our products. If you receive a damaged item from Eilish we do apologize! Please email info@eilishstudio.com right away so we can facilitate a replacement.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How will I know if my order has shipped?</strong>",
+            "answer": "<p>You will receive an email confirmation at the time you place your order. Each time your order status changes, you will receive an email notification. If you do not receive an email, we highly recommend checking your spam folders or contacting us directly at info@eilishstudio.com</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What if I need to modify or cancel my order?</strong>",
+            "answer": "<p>Once your order has been submitted, we have limited ability to make modifications. We will try our best to accommodate, however we cannot guarantee these changes will be made after your order is submitted. Please email info@eilishstudio.com as soon as possible with any modification or cancellation requests.</p>"
+          }
+        },
+        "question_pmdTBM": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What countries do you ship to?</strong>",
+            "answer": "<p>We ship worldwide to over a hundred countries. If your country is listed on our checkout page, then we ship there! If your country is not available on our checkout, get in touch with us and we can try to arrange alternative shipping.</p>"
+          }
+        },
+        "question_6XryeX": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How long will it take for my order to arrive?</strong>",
+            "answer": "<p>All orders made in the US are shipped with USPS Priority. Shipments are collected from our studio  Monday to Friday (excluding public holidays) at approximately 12 pm local time. You will be provided with a tracking number that you can use to follow your orders progress.</p><p>Shipping times can vary, but here is rough guide;</p><p>EU & UK : 5-10 working days</p><p>USA & Canada: 2-5 business days</p><p>Australia, New Zealand & Japan : 5-10 working days</p><p></p><p>Note: orders placed during sale season may experience shipping delays.</p><p>Rest of the world: Anywhere between 3-6 working days depending on your location and other variables.</p>"
+          }
+        },
+        "question_UWTR4J": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I leave instructions for delivery?</strong>",
+            "answer": "<p>Yes. You can leave delivery notes on our checkout when paying for your order. These notes are shared with the courier. The courier will also be given the phone number you provide us, so they may also contact you directly.</p>"
+          }
+        },
+        "question_aJVifY": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I change my shipping address after I order?</strong>",
+            "answer": "<p>Maybe.</p><p>If your order has not yet been shipped, then yes we can change the address for you. Just open a support ticket and let us know.</p><p>You will receive an email informing you when your order has shipped. If you need to change your shipping address after this point, your best option is to contact your local UPS agent directly as your order is now in their custody. Visit the UPS website for contact details of your local agent.</p>"
+          }
+        },
+        "category_GgeUQq": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_XVUCzm": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What information do you keep about me?</strong>",
+            "answer": "<p>We store your name and contact details in addition to your previous purchases and browsing history on our site. We do not store any credit card or payment details with the exception of banking transaction codes.<br/></p>"
+          }
+        },
+        "question_9jz83L": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you advertise?</strong>",
+            "answer": "<p>Yes. We love what we do and want to share it with as many people as possible. We primarily advertise on Google and Facebook’s ad networks. We aim to make this advertising as original as possible and hope it does not annoy you too much. You can of course always block these ads in your Google and Facebook settings.</p>"
+          }
+        },
+        "question_MdgNpn": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I have all my data removed from your business?</strong>",
+            "answer": "<p>Yes. Our web system conforms with your right to be forgotten. Simply open a support ticket requesting to have all your data wiped and we will remove it. Our system will also alert third parties to your request so that they may remove data that relates to your relationship with us.</p><p>Some notes on this issue, this is an irreversible process, all your data including your email address will be wiped from our system (we won’t be able to contact you after it is completed). By law we are required to retain your transaction history for tax and legal purposes, but this data is ring fenced.</p><p>If you change your mind, you can of course always come back and buy from us again, but our system will treat you as a brand new customer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question_pmdTBM",
+        "question_6XryeX",
+        "question_UWTR4J",
+        "question_aJVifY",
+        "category_GgeUQq",
+        "question_XVUCzm",
+        "question_9jz83L",
+        "question_MdgNpn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "F.A.Q.",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "faq"
+  ]
+}
