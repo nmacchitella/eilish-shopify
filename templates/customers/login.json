@@ -23,7 +23,8 @@
         "fields"
       ],
       "settings": {
-        "customer_login_instructions": "<p>Log in to view order history, to update your shipping information and to create and save a wishlist. Create a new account if you are having issues logging in.</p>"
+        "customer_login_instructions": "<p>Log in to view order history, to update your shipping information and to create and save a wishlist. Create a new account if you are having issues logging in.</p>",
+        "image": "shopify://shop_images/Three_Dresses_Hanging.jpg"
       }
     }
   },
