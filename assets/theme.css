@@ -1295,7 +1295,7 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   background: rgb(var(--input-background, transparent));
   color: rgb(var(--input-text-color, var(--text-color)));
   text-align: start;
-  border-width: 1px;
+  border-bottom: 1px solid black;
   transition: border-color .1s ease-in-out;
 }
 
@@ -4556,10 +4556,6 @@ product-rerender {
   color: rgb(var(--text-color));
   padding-block-start: var(--section-vertical-spacing);
   padding-block-end: min(var(--section-vertical-spacing), 3rem);
-}
-
-.footer .container {
-
 }
 
 .footer__inner {

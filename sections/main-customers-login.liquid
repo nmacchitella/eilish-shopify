@@ -4,7 +4,7 @@
       <div class="v-stack gap-6" id="login">
         <div class="v-stack gap-4">
           <h1 class="h3">{{ 'customer.login.title' | t }}</h1>
-          <p>{{ 'customer.login.instructions' | t }}</p>
+          <p>{{ section.settings.customer_login_instructions }}</p>
         </div>
 
         {%- for block in section.blocks -%}
@@ -106,6 +106,13 @@
   "name": "t:sections.main_customers_login.name",
   "class": "shopify-section--main-customers-login",
   "tag": "section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "customer_login_instructions",
+      "label": "Customer login instructions"
+    },
+  ],
   "blocks": [
     {
       "type": "@app"

@@ -142,3 +142,12 @@
 .customer-orders {
   background: #fff;
 }
+
+.customer-auth h1 {
+  font-size: .8rem;
+  text-align: left;
+}
+
+.customer-auth p {
+  text-align: left;
+}
