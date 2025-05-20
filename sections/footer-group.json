@@ -25,7 +25,7 @@
         "links_wGLcQw": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "footer-menu-2",
             "show_menu_title": true,
             "menu_title": "Customer Service"
           }
@@ -33,7 +33,7 @@
         "links_rMADw7": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "footer-menu-3",
             "show_menu_title": true,
             "menu_title": "Follow Us"
           }
