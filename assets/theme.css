@@ -667,6 +667,12 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   --content-over-media-height: clamp(30rem, 125vw, 42rem);
 }
 
+/* Set max height for homepage hero image when setting is set to adapt to image */
+
+.content-over-media--max {
+  --content-over-media-height: clamp(30rem, 125vw, 45rem);
+}
+
 .content-over-media--fill {
   --content-over-media-height: calc(100vh - var(--sticky-area-height));
 }
