@@ -219,6 +219,10 @@
   gap: 32px;
 }
 
+.customer-account-box {
+  width: 100%;
+}
+
 @media screen and (min-width: 700px) {
   .customer-auth-container {
     display: grid;
