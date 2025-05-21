@@ -233,3 +233,13 @@
     gap: 48px;
   }
 }
+
+/* Main Page Section */
+
+.page-header .h2 {
+  font-size: 1.2rem;
+}
+
+.prose.page-content {
+  font-size: 1rem;
+}

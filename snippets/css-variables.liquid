@@ -29,6 +29,14 @@ note that this may have impact on different places.
     font-display: 'swap';
     src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/GillSans-Light.woff2?v=1747600604') format('woff2');
   }
+
+  @font-face {
+    font-family: 'GillSansRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: 'swap';
+    src: url('https://cdn.shopify.com/s/files/1/0675/6882/8576/files/GillSans-Regular.woff2?v=1747600602') format('woff2');
+  }
   
   {%- assign heading_font_italic = settings.heading_font | font_modify: 'style', 'italic' -%}
   {%- assign text_font_italic = settings.text_font | font_modify: 'style', 'italic' -%}
@@ -61,7 +69,7 @@ note that this may have impact on different places.
     /* Container */
     --container-max-width: 100%;
     --container-xxs-max-width: 27.5rem; /* 440px */
-    --container-xs-max-width: 42.5rem; /* 680px */
+    --container-xs-max-width: 37.5rem; /* 680px */
     --container-sm-max-width: 61.25rem; /* 980px */
     --container-md-max-width: 71.875rem; /* 1150px */
     --container-lg-max-width: 78.75rem; /* 1260px */
