@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_pF3m9d": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_iBprH7": {
+          "type": "subheading",
+          "settings": {
+            "text": "ROME 2025, <em>Michele Iacobini</em>"
+          }
+        },
+        "heading_U8xTBQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_3YBYA4": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iBprH7",
+        "heading_U8xTBQ",
+        "richtext_3YBYA4"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_xhFQcW": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_6bQ6cX": {
+          "type": "subheading",
+          "settings": {
+            "text": "FLORENCE 2024, <em>Michele Iacobini</em>"
+          }
+        },
+        "heading_PrbgC7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NFmKf7": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6bQ6cX",
+        "heading_PrbgC7",
+        "richtext_NFmKf7"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_AK7jKN": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_qBpyML": {
+          "type": "subheading",
+          "settings": {
+            "text": "NEW YORK 2023, <em>Edoardo Cozzani</em>"
+          }
+        },
+        "heading_LaN94N": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_G6NjAz": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qBpyML",
+        "heading_LaN94N",
+        "richtext_G6NjAz"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_pF3m9d",
+    "image_with_text_xhFQcW",
+    "image_with_text_AK7jKN"
+  ]
+}
