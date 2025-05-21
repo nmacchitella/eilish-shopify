@@ -32,6 +32,7 @@
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_quick_buy": false,
+    "show_sold_out_badge": false,
     "cart_icon": "tote_bag",
     "cart_free_shipping_threshold": "100",
     "social_instagram": "https://www.instagram.com/eilish_studio",
