@@ -91,7 +91,7 @@
   }
 }
 
-/* Product Card */
+/* Product Card */ 
 
 .product-card__info {
   font-size: .875rem;
@@ -134,7 +134,7 @@
   }
 }
 
-/* Media With Text Section */
+/* Media With Text Section multiple-media-with-text  multiple-media-with-text--reverse */ 
 
 @media screen and (min-width: 1000px) {
   .multiple-media-with-text__content-wrapper {
@@ -142,6 +142,10 @@
     margin: 0 auto;
   }
 }
+
+.multiple-media-with-text {
+    margin-bottom: 3.125rem;
+  }
 
 .multiple-media-with-text__content-wrapper .prose:not(.prose--tight) :where(:not(meta, span) + *) {
   margin-block-start: 1rem;
