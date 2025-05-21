@@ -498,6 +498,10 @@
           {
             "value": "tall_crop",
             "label": "t:theme_settings.product_card.product_image_size_options.tall_crop"
+          },
+          {
+            "value": "costume_ratio",
+            "label": "costume_ratio"
           }
         ],
         "default": "natural"

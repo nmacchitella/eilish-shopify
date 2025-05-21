@@ -7571,7 +7571,9 @@ product-rerender {
 .aspect-tall {
   aspect-ratio: 2 / 3;
 }
-
+.aspect-custom_ration {
+  aspect-ratio: 2 / 3;
+}
 .aspect-square {
   aspect-ratio: 1;
 }
