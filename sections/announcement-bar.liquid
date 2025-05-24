@@ -47,7 +47,11 @@
 
       <announcement-bar-carousel allow-swipe {% if section.settings.autoplay %}autoplay="{{ section.settings.cycle_speed }}"{% endif %} id="{{ carousel_id }}" class="announcement-bar__carousel">
         {%- for block in section.blocks -%}
-          <p class="prose heading {% if forloop.first %}is-selected{% endif %}" {{ block.shopify_attributes }}>{{- block.settings.text -}}</p>
+          {%- if block.settings.url != blank -%}
+            <a href="{{ block.settings.url }}" class="prose heading {% if forloop.first %}is-selected{% endif %}" {{ block.shopify_attributes }}>{{- block.settings.text -}}</a>
+          {%- else -%}
+            <p class="prose heading {% if forloop.first %}is-selected{% endif %}" {{ block.shopify_attributes }}>{{- block.settings.text -}}</p>
+          {%- endif -%}
         {%- endfor -%}
       </announcement-bar-carousel>
 
@@ -83,6 +87,11 @@
           "id": "text",
           "label": "t:sections.announcement_bar.blocks.message.text",
           "default": "Announce something here"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link URL (optional)"
         }
       ]
     }
