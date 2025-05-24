@@ -27,7 +27,7 @@
     "show_image_zoom_on_hover": false,
     "stagger_products_apparition": false,
     "stagger_menu_apparition": false,
-    "product_image_aspect_ratio": "tall_crop",
+    "product_image_aspect_ratio": "natural",
     "product_card_text_font": "body",
     "product_color_display": "hide",
     "show_product_rating": false,
