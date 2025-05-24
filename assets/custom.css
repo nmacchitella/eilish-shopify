@@ -247,3 +247,38 @@
 .prose.page-content {
   font-size: 1rem;
 }
+
+/* Announcement Bar Custom Styling */
+.announcement-bar {
+  /* Keep the background color you like */
+  background-color: #e5e5e5;
+  
+  /* Keep the height you prefer */
+  height: 32px;
+  
+  /* Ensure proper vertical centering */
+  display: flex;
+  align-items: center;
+}
+
+.announcement-bar .prose {
+  /* Remove uppercase transformation */
+  text-transform: none; /*!important*/
+  cursor: pointer;
+  /* Use the body font instead of heading font */
+  font-family: var(--font-body-family-2); /*!important*/
+  
+  /* Ensure proper centering */
+  margin: 0;
+  width: 100%;
+}
+
+/* If you want to style the clickable links specifically */
+.announcement-bar a.prose {
+  color: inherit;
+  text-decoration: none;
+}
+
+.announcement-bar a.prose:hover {
+  text-decoration: underline;
+}
