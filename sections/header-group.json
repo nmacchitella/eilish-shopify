@@ -24,13 +24,12 @@
       "block_order": [
         "message-1"
       ],
-      "disabled": true,
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "enable_sticky": false,
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 5,
-        "desktop_font_size": 11,
+        "desktop_font_size": 14,
         "mobile_font_size": 10
       }
     },
