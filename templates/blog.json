@@ -13,6 +13,7 @@
       "type": "main-blog",
       "settings": {
         "color_scheme": "scheme-2",
+        "heading": "Universe",
         "show_blog_title": true,
         "show_rss_feed": false,
         "show_tags": true,
