@@ -19,7 +19,7 @@
     </div>
   {%- else -%}
     <div class="container container--lg">
-      <div class="section-stack">
+      <div class="section-stack blog-stack">
         {%- if section.settings.show_blog_title or section.settings.show_tags and blog.tags.size > 0 -%}
           <div class="v-stack gap-5">
             {%- if section.settings.show_blog_title -%}
@@ -39,15 +39,15 @@
 
             {%- if section.settings.show_tags and blog.tags.size > 0 -%}
               <ul class="blog-tags unstyled-list" role="list">
-                <li {% if current_tags.size > 0 %}class="link-faded"{% endif %}>
+                <li {% unless current_tags.size > 0 %}class="link-underline"{% endunless %}>
                   <a href="{{ blog.url }}">All</a>
                 </li>
 
                 {%- for tag in blog.all_tags -%}
                   {%- if current_tags contains tag -%}
-                    <li>{{- tag | link_to_remove_tag: tag -}}</li>
+                    <li class="link-underline">{{- tag | link_to_remove_tag: tag -}}</li>
                   {%- else -%}
-                    <li class="link-faded">{{- tag | link_to_tag: tag -}}</li>
+                    <li>{{- tag | link_to_tag: tag -}}</li>
                   {%- endif -%}
                 {%- endfor -%}
               </ul>

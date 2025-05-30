@@ -30,12 +30,12 @@ Supported parameters
         endif
       -%}
 
-      <a href="{{ article.url }}" class="overflow-hidden">
+      <a href="{{ article.url }}" class="overflow-hidden portrait-alt">
         {{- article.image | image_url: width: article.image.width | image_tag: loading: loading_strategy, sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'blog-post-card__image w-full zoom-image group-hover:zoom' -}}
       </a>
     {%- endif -%}
   {%- else -%}
-    <div class="overflow-hidden">
+    <div class="overflow-hidden portrait-alt">
       {{- 'image' | placeholder_svg_tag: 'blog-post-card__image placeholder placeholder--invert w-full zoom-image group-hover:zoom' -}}
     </div>
   {%- endif -%}
