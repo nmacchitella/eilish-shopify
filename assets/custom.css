@@ -281,3 +281,9 @@
 .announcement-bar__link .prose {
   margin: 0;
 }
+
+/* Blog Index */
+
+.h2.blog-heading {
+  font-size: 1.2rem;
+}
