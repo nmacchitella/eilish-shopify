@@ -269,12 +269,13 @@ height-observer {
 
 .blog-post-card {
   align-content: start;
-  gap: 1.25rem;
+  gap: 1rem;
+  padding-bottom: 1rem;
   display: grid;
 }
 
 .blog-post-card__info {
-  justify-items: start;
+  justify-items: center;
   row-gap: 1rem;
   display: grid;
 }

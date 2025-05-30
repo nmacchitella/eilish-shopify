@@ -287,3 +287,19 @@
 .h2.blog-heading {
   font-size: 1.2rem;
 }
+
+.blog-post-card__title.h4 {
+  font-size: .65rem;
+}
+
+@media screen and (min-width: 700px) {
+  .blog-post-card {
+    background: #e9e9e9;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blog-post-card img {
+    min-height: 507px;
+  }
+}

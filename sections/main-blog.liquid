@@ -36,7 +36,7 @@
             {%- if section.settings.show_tags and blog.tags.size > 0 -%}
               <ul class="blog-tags unstyled-list" role="list">
                 <li {% if current_tags.size > 0 %}class="link-faded"{% endif %}>
-                  <a href="{{ blog.url }}">{{- 'blog.general.all_posts' | t -}}</a>
+                  <a href="{{ blog.url }}">All</a>
                 </li>
 
                 {%- for tag in blog.all_tags -%}
