@@ -19,7 +19,7 @@
         "posts_per_page": 10,
         "feature_first_blog_post": false,
         "featured_blog_post_color_scheme": "",
-        "show_category": true,
+        "show_category": false,
         "show_date": false,
         "show_excerpt": false,
         "show_read_more": false
