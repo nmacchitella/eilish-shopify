@@ -330,8 +330,8 @@ height-observer {
 
 @media screen and (min-width: 1000px) {
   .blog-post-list {
-    --blog-post-list-items-per-row: 3;
-    --blog-post-list-column-gap: 3.75rem;
+    --blog-post-list-items-per-row: 4;
+    --blog-post-list-column-gap: 1.5rem;
   }
 
   .featured-blog-post {
@@ -340,12 +340,6 @@ height-observer {
 
   .featured-blog-post + .blog-post-card {
     display: none;
-  }
-}
-
-@media screen and (min-width: 1150px) {
-  .blog-post-list {
-    --blog-post-list-row-gap: 3.75rem;
   }
 }
 
