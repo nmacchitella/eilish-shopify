@@ -6,9 +6,9 @@
       <div class="empty-state">
         <div class="prose">
           {%- if section.settings.heading != blank -%}
-            <h1 class="h4">{{ section.settings.heading | escape }}</h1>
+            <h1 class="h2{% if template.name == 'blog' %} blog-heading{% endif %}">{{ section.settings.heading }}</h1>
           {%- else -%}
-            <h1 class="h4">{{ blog.title }}</h1>
+            <h1 class="h2{% if template.name == 'blog' %} blog-heading{% endif %}">{{ blog.title }}</h1>
           {%- endif -%}
           <p>{{ 'blog.general.empty_blog' | t }}</p>
 
@@ -25,7 +25,11 @@
             {%- if section.settings.show_blog_title -%}
               <div class="section-header justify-self-center text-center">
                 <div class="h-stack justify-center gap-4">
-                  <h1 class="h2{% if template.name == 'blog' %} blog-heading{% endif %}">{{ blog.title }}</h1>
+                  {%- if section.settings.heading != blank -%}
+                    <h1 class="h2{% if template.name == 'blog' %} blog-heading{% endif %}">{{ section.settings.heading }}</h1>
+                  {%- else -%}
+                    <h1 class="h2{% if template.name == 'blog' %} blog-heading{% endif %}">{{ blog.title }}</h1>
+                  {%- endif -%}
 
                   {%- if section.settings.show_rss_feed -%}
                     <a href="{{ blog.url }}.atom" class="link-faded">
