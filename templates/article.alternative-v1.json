@@ -1,0 +1,161 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_image": false,
+        "enable_parallax": true,
+        "image_size": "medium",
+        "content_width": "md",
+        "show_date": false,
+        "show_category": false,
+        "show_author": false,
+        "show_share_buttons": false,
+        "show_sticky_bar": true,
+        "toolbar_color_scheme": ""
+      }
+    },
+    "multiple_media_with_text_6kFewd": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_3LDN4K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240428_002-032-web.jpg",
+            "rotation": 0
+          }
+        },
+        "image_dcXdwW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shell_hat_front_almond_6cde3377-d2c6-42ef-83ea-845ac39252e3.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3LDN4K",
+        "image_dcXdwW"
+      ],
+      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": false,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Q</strong> How are the materials that you work with more sustainable than others?</p><p>The majority of our pieces are LWG certified. Leather Working Group is a global multi-stakeholder community committed to building a sustainable future with responsible leather. It’a a non-profit that drives best practices and positive social and environmental change for responsible leather production. LWG Audit Standards are designed to provide transparency and accountability within the leather supply chain.</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "rich_text_V4V6Vp": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_CDjjNW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Q </strong>How does your design process look, from a sustainable standpoint?</p><p>It’s obvious that the most sustainable pieces are those that last longer than one season, both physically, but also from an aesthetic point of view. We work with many of the same lasts and shapes, updating them slightly from season to season. We never follow short term trends, we want our pieces to feel relevant for many years to come. We also continually educate our customers (both retailers and end-customers) in how to care for their shoes and bags. We want them to show their ATP Atelier items a lot of love, so they can age beautifully, just like their owners.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_CDjjNW"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "prev-next-blog-posts": {
+      "type": "prev-next-blog-posts",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "Read more",
+        "show_category": true,
+        "show_excerpt": true,
+        "show_read_more": true
+      }
+    },
+    "multiple_media_with_text_BDkia9": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_3gnLMh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/White_Dress_Hanging.jpg",
+            "rotation": 0
+          }
+        },
+        "image_DyNA8y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hats_Still.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3gnLMh",
+        "image_DyNA8y"
+      ],
+      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": false,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Q</strong> Who are your suppliers?</p><p>We have a very close and long standing relationship with our suppliers. We work with what Italians call laboratori, small factories with up to 20 employees. We want to protect the Italian artisanal tradition of hand made leather goods, that has been handed down for generations, to not promote mass production. This is not only socially sustainable but also allows us to have very short lead times. That in turn means that we never have to produce more than we actually know for sure we will need. Since all our suppliers are located in Italy, and we only work with hides from within the EU, there's a very high traceability and transparency of the raw materials. 97% of the components used to manufacture ATP Atelier collections are even sourced from within Italy.</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multiple_media_with_text_6kFewd",
+    "rich_text_V4V6Vp",
+    "prev-next-blog-posts",
+    "multiple_media_with_text_BDkia9"
+  ]
+}
