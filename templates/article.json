@@ -51,7 +51,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "reveal_on_scroll": true,
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "media_position_desktop": "before_text",
         "media_position_mobile": "before_text",
         "media_layout": "overlap",
@@ -104,12 +104,58 @@
         "show_excerpt": true,
         "show_read_more": true
       }
+    },
+    "multiple_media_with_text_BDkia9": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_3gnLMh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/White_Dress_Hanging.jpg",
+            "rotation": 0
+          }
+        },
+        "image_DyNA8y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hats_Still.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3gnLMh",
+        "image_DyNA8y"
+      ],
+      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": false,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Q</strong> Who are your suppliers?</p><p>We have a very close and long standing relationship with our suppliers. We work with what Italians call laboratori, small factories with up to 20 employees. We want to protect the Italian artisanal tradition of hand made leather goods, that has been handed down for generations, to not promote mass production. This is not only socially sustainable but also allows us to have very short lead times. That in turn means that we never have to produce more than we actually know for sure we will need. Since all our suppliers are located in Italy, and we only work with hides from within the EU, there's a very high traceability and transparency of the raw materials. 97% of the components used to manufacture ATP Atelier collections are even sourced from within Italy.</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
     }
   },
   "order": [
     "main",
     "multiple_media_with_text_6kFewd",
     "rich_text_V4V6Vp",
-    "prev-next-blog-posts"
+    "prev-next-blog-posts",
+    "multiple_media_with_text_BDkia9"
   ]
 }
