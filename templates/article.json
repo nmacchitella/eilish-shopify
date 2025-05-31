@@ -31,12 +31,14 @@
         "image_3LDN4K": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/240428_002-032-web.jpg",
             "rotation": 0
           }
         },
         "image_dcXdwW": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/shell_hat_front_almond_6cde3377-d2c6-42ef-83ea-845ac39252e3.jpg",
             "rotation": 0
           }
         }
@@ -57,9 +59,9 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "About",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Q</strong> How are the materials that you work with more sustainable than others?</p><p>The majority of our pieces are LWG certified. Leather Working Group is a global multi-stakeholder community committed to building a sustainable future with responsible leather. It’a a non-profit that drives best practices and positive social and environmental change for responsible leather production. LWG Audit Standards are designed to provide transparency and accountability within the leather supply chain.</p>",
         "button_1_text": "",
         "button_1_link": "",
         "button_1_style": "solid",
