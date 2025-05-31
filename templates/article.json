@@ -12,7 +12,7 @@
     "main": {
       "type": "main-article",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "show_image": true,
         "enable_parallax": true,
         "image_size": "medium",
