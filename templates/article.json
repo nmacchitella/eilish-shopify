@@ -70,6 +70,28 @@
         "button_2_style": "solid"
       }
     },
+    "rich_text_V4V6Vp": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_CDjjNW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Q </strong>How does your design process look, from a sustainable standpoint?</p><p>It’s obvious that the most sustainable pieces are those that last longer than one season, both physically, but also from an aesthetic point of view. We work with many of the same lasts and shapes, updating them slightly from season to season. We never follow short term trends, we want our pieces to feel relevant for many years to come. We also continually educate our customers (both retailers and end-customers) in how to care for their shoes and bags. We want them to show their ATP Atelier items a lot of love, so they can age beautifully, just like their owners.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_CDjjNW"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "prev-next-blog-posts": {
       "type": "prev-next-blog-posts",
       "disabled": true,
@@ -87,6 +109,7 @@
   "order": [
     "main",
     "multiple_media_with_text_6kFewd",
+    "rich_text_V4V6Vp",
     "prev-next-blog-posts"
   ]
 }
