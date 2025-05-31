@@ -25,6 +25,49 @@
         "toolbar_color_scheme": ""
       }
     },
+    "multiple_media_with_text_6kFewd": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_3LDN4K": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        },
+        "image_dcXdwW": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3LDN4K",
+        "image_dcXdwW"
+      ],
+      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "About",
+        "title": "Showcase your product",
+        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
     "prev-next-blog-posts": {
       "type": "prev-next-blog-posts",
       "settings": {
@@ -40,6 +83,7 @@
   },
   "order": [
     "main",
+    "multiple_media_with_text_6kFewd",
     "prev-next-blog-posts"
   ]
 }
