@@ -7,14 +7,14 @@
   <div class="image-duo-grid">
     <div class="media-block media-block--big">
       {%- if section.settings.large_image != blank and section.settings.large_image_link != blank -%}
-        <a href="{{ section.settings.large_image_link }}" class="overflow-hidden">
+        <a href="{{ section.settings.large_image_link }}" class="large-image-link overflow-hidden">
           {{ section.settings.large_image | image_url: width: section.settings.large_image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '300,400,500,600,800,1000,1200,1400,1600,1800' }}
         </a>
       {%- endif -%}
     </div>
     <div class="media-block media-block--small">
       {%- if section.settings.small_image != blank and section.settings.small_image_link != blank -%}
-        <a href="{{ section.settings.small_image_link }}" class="overflow-hidden">
+        <a href="{{ section.settings.small_image_link }}" class="small-image-link overflow-hidden">
           {{ section.settings.small_image | image_url: width: section.settings.small_image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '300,400,500,600,800,1000,1200,1400,1600,1800' }}
         </a>
       {%- endif -%}
@@ -61,7 +61,7 @@
     {
       "type": "richtext",
       "id": "description",
-      "label": "description"
+      "label": "Description"
     },
     {
       "type": "image_picker",

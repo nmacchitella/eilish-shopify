@@ -388,6 +388,11 @@
   object-position: center;
 }
 
+.large-image-link,
+.small-image-link {
+  display: flex;
+}
+
 .body-block {
   padding: 16px;
   grid-area: t;
