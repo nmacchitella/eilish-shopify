@@ -46,6 +46,7 @@
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
+        "invert": false,
         "heading": "{{ article.metafields.custom.first_section_heading.value }}",
         "description": "{{ article.metafields.custom.first_section_description | metafield_tag }}",
         "large_image": "{{ article.metafields.custom.first_large_image.value }}",
@@ -53,11 +54,28 @@
         "small_image": "{{ article.metafields.custom.first_small_image.value }}",
         "small_image_link": "shopify://products/bandana-peony-pink-dark-emerald"
       }
+    },
+    "image_duo_grid_Gixe7k": {
+      "type": "image-duo-grid",
+      "name": "Image Duo Grid",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "invert": false,
+        "heading": "{{ article.metafields.custom.second_section_heading.value }}",
+        "description": "{{ article.metafields.custom.second_section_description | metafield_tag }}",
+        "large_image": "{{ article.metafields.custom.second_large_image.value }}",
+        "large_image_link": "shopify://products/scrunchie",
+        "small_image": "{{ article.metafields.custom.second_small_image.value }}",
+        "small_image_link": "shopify://products/shell-sun-hat-almond-cerulean"
+      }
     }
   },
   "order": [
     "main",
     "prev-next-blog-posts",
-    "image_duo_grid_UV3wh4"
+    "image_duo_grid_UV3wh4",
+    "image_duo_grid_Gixe7k"
   ]
 }
