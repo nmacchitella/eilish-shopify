@@ -338,3 +338,13 @@
     gap: 4.25rem;
   }
 }
+
+/* Article */
+
+.h1.article-heading {
+  font-size: .65rem;
+}
+
+.article-heading-section {
+  place-items: center;
+}

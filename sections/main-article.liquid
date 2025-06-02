@@ -60,7 +60,7 @@
 
   <div class="article__wrapper container--{{ section.settings.content_width }}">
     <div class="v-stack gap-10 sm:gap-16">
-      <div class="v-stack gap-8 sm:gap-12">
+      <div class="v-stack gap-4 article-heading-section">
         <div class="v-stack gap-4.5">
           {%- if section.settings.show_date or section.settings.show_category and article.tags.size > 0 -%}
             <div class="h-stack gap-4">
@@ -78,7 +78,7 @@
             </div>
           {%- endif -%}
 
-          <h1 class="h1">{{ article.title }}</h1>
+          <h1 class="h1 article-heading">{{ article.title }}</h1>
         </div>
 
         <div class="prose">
