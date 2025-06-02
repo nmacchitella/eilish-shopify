@@ -44,7 +44,6 @@
         "image_with_text_xnDTaM": {
           "type": "image_with_text",
           "settings": {
-            "image": "{{ article.metafields.custom.alternative_image_1.value }}",
             "title": "",
             "heading_tag": "h3",
             "content": "",
@@ -55,7 +54,6 @@
         "image_with_text_XQLMHE": {
           "type": "image_with_text",
           "settings": {
-            "image": "{{ article.metafields.custom.alternative_image_2.value }}",
             "title": "",
             "heading_tag": "h3",
             "content": "",
@@ -66,7 +64,6 @@
         "image_with_text_KfXhLP": {
           "type": "image_with_text",
           "settings": {
-            "image": "{{ article.metafields.custom.alternative_image_3.value }}",
             "title": "",
             "heading_tag": "h3",
             "content": "",
