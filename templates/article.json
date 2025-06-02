@@ -61,14 +61,141 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "invert": true,
         "heading": "{{ article.metafields.custom.second_section_heading.value }}",
-        "description": "<p>{{ article.metafields.custom.second_section_description | metafield_tag }}</p>",
+        "description": "{{ article.metafields.custom.second_section_description | metafield_tag }}",
         "large_image": "{{ article.metafields.custom.second_large_image.value }}",
         "large_image_link": "shopify://products/scrunchie",
         "small_image": "{{ article.metafields.custom.second_small_image.value }}",
         "small_image_link": "shopify://products/shell-sun-hat-almond-cerulean"
+      }
+    },
+    "media_grid_fiTRGL": {
+      "type": "media-grid",
+      "blocks": {
+        "image_kQUydB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ahYn9Y": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_V9MMte": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3ePbg4": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zYLKhE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aNpddB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_kQUydB",
+        "image_ahYn9Y",
+        "image_V9MMte",
+        "image_3ePbg4",
+        "image_zYLKhE",
+        "image_aNpddB"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
       }
     }
   },
@@ -76,6 +203,7 @@
     "main",
     "prev-next-blog-posts",
     "image_duo_grid_UV3wh4",
-    "image_duo_grid_Gixe7k"
+    "image_duo_grid_Gixe7k",
+    "media_grid_fiTRGL"
   ]
 }
