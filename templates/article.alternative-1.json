@@ -94,11 +94,43 @@
         "title": "Multi-column",
         "content": ""
       }
+    },
+    "featured_collections_tignRi": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_xnb48h": {
+          "type": "collection",
+          "settings": {
+            "collection": "all",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_xnb48h"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "hide_product_price": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
     }
   },
   "order": [
     "main",
     "prev-next-blog-posts",
-    "multi_column_7QYftb"
+    "multi_column_7QYftb",
+    "featured_collections_tignRi"
   ]
 }
