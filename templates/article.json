@@ -48,8 +48,10 @@
         "remove_vertical_spacing": false,
         "heading": "{{ article.metafields.custom.first_section_heading.value }}",
         "description": "{{ article.metafields.custom.first_section_description | metafield_tag }}",
-        "image_1": "{{ article.metafields.custom.first_large_image.value }}",
-        "image_2": "{{ article.metafields.custom.first_small_image.value }}"
+        "large_image": "{{ article.metafields.custom.first_large_image.value }}",
+        "large_image_link": "shopify://products/wide-brim-sun-hat-white",
+        "small_image": "{{ article.metafields.custom.first_small_image.value }}",
+        "small_image_link": "shopify://products/bandana-peony-pink-dark-emerald"
       }
     }
   },
