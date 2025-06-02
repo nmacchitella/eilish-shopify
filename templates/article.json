@@ -39,55 +39,21 @@
         "show_read_more": true
       }
     },
-    "multiple_media_with_text_dtFPmx": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_WAV4jH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Torno_Black_Nappa_Strappy_Heeled_Sandals_-Assisi_Temporale_Leather_Shoulder_Bag_Summer_25_ATP_Atelier_042_V2.webp",
-            "rotation": 0
-          }
-        },
-        "image_RymEfY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/KORTSPEL_492_V2_cabed886-f324-49a2-8535-31c3b3378032.webp",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_WAV4jH",
-        "image_RymEfY"
-      ],
-      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+    "image_duo_grid_UV3wh4": {
+      "type": "image-duo-grid",
+      "name": "Image Duo Grid",
       "settings": {
-        "color_scheme": "scheme-2",
-        "reveal_on_scroll": true,
+        "color_scheme": "",
         "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "separated",
-        "media_alignment": "end",
-        "media_alignment_offset": 116,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
-        "button_1_text": "",
-        "button_1_link": "",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
+        "remove_vertical_spacing": false,
+        "heading": "",
+        "description": ""
       }
     }
   },
   "order": [
     "main",
     "prev-next-blog-posts",
-    "multiple_media_with_text_dtFPmx"
+    "image_duo_grid_UV3wh4"
   ]
 }
