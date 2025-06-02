@@ -27,11 +27,11 @@
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
   <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-    <div class="container">
+    <div class="container{% if template.name == 'article' %} container--xxl{% endif %}">
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.content_alignment -%}
 
-        <multi-column class="multi-column {% unless section.settings.stack_on_mobile %}scroll-area snap-x bleed md:unbleed{% endunless %}">
+        <multi-column class="multi-column {% unless section.settings.stack_on_mobile %}scroll-area snap-x bleed md:unbleed{% endunless %}{% if template.name == 'article' %} article-multi-column{% endif %}">
           {%- for block in section.blocks -%}
             <div class="multi-column__item {% if section.settings.overlap_image and block.settings.title != blank %}multi-column__item--overlap{% endif %} snap-center group" {{ block.shopify_attributes }}>
               {%- capture sizes_attribute -%}
@@ -66,7 +66,7 @@
                     {{- media_content -}}
                   </a>
                 {%- else -%}
-                  <div class="overflow-hidden">
+                  <div class="overflow-hidden{% if template.name == 'article' %} portrait-alt{% endif %}">
                     {{- media_content -}}
                   </div>
                 {%- endif -%}

@@ -24,7 +24,7 @@ Supported variables
         {%- endif -%}
 
         {%- if heading != blank -%}
-          <h2 class="h2{% if template.name == 'blog' %} blog-heading{% endif %}">{{- heading -}}</h2>
+          <h2 class="h2{% if template.name == 'blog' %} blog-heading{% endif %}{% if template.name == 'article' %} article-heading{% endif %}">{{- heading -}}</h2>
         {%- endif -%}
 
         {{- content -}}
