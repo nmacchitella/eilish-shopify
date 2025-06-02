@@ -388,3 +388,34 @@
   object-position: center;
 }
 
+.body-block {
+  padding: 16px;
+  grid-area: t;
+  height: max-content;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .image-duo-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+    grid-template-rows: minmax(40px, auto) calc(720px * 0.45) calc(720px * 0.45) calc(720px * 0.1);
+    grid-template-areas:
+        ". . . . . . . t t t t ."
+        "b b b b b b . t t t t ."
+        "b b b b b b s s s s . ."
+        "b b b b b b s s s s . .";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image-duo-grid {
+    grid-template-areas:
+        ". . . . . . . . t t t ."
+        ". . b b b b b . t t t ."
+        ". . b b b b b s s s . ."
+        ". . b b b b b s s s . .";
+  }
+}
+
