@@ -189,12 +189,12 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
+        "desktop_row_height": 240,
+        "mobile_row_height": 200,
         "section_width": "lg",
         "spacing": "xs",
         "subheading": "",
-        "title": "Media grid",
+        "title": "",
         "content": ""
       }
     }
