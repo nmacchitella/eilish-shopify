@@ -2,7 +2,7 @@
 
 <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
   <div class="container-image-grid">
-    <div class="image-duo-grid">
+    <div class="image-duo-grid{% if section.settings.invert %} inverted{% endif %}">
       <div class="media-block media-block--big">
         {%- if section.settings.large_image != blank and section.settings.large_image_link != blank -%}
           <a href="{{ section.settings.large_image_link }}" class="large-image-link overflow-hidden">
@@ -18,7 +18,7 @@
         {%- endif -%}
       </div>
       <div class="body-block">
-        <h2 class="article-heading">{{ section.settings.heading }}</h2>
+        <h2 class="article-heading h2">{{ section.settings.heading }}</h2>
         <div class="article-description">{{ section.settings.description }}</div>
       </div>
     </div>
@@ -50,6 +50,12 @@
       "type": "checkbox",
       "id": "remove_vertical_spacing",
       "label": "t:global.spacing.remove_vertical_spacing",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "invert",
+      "label": "Place text before images",
       "default": false
     },
     {

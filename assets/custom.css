@@ -370,6 +370,7 @@
 
 .container-image-grid {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .image-duo-grid .media-block {
@@ -404,6 +405,14 @@
   text-align: left;
 }
 
+.body-block h2,
+.body-block .article-description p {
+  margin-bottom: 16px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+  word-break: break-word;
+}
+
 @media screen and (min-width: 768px) {
   .image-duo-grid {
     width: 100%;
@@ -413,20 +422,41 @@
     gap: 24px;
     grid-template-rows: minmax(40px, auto) calc(720px * 0.45) calc(720px * 0.45) calc(720px * 0.1);
     grid-template-areas:
-        ". . . . . . . t t t t ."
-        "b b b b b b . t t t t ."
-        "b b b b b b s s s s . ."
-        "b b b b b b s s s s . .";
+      ". . . . . . . t t t t ."
+      "b b b b b b . t t t t ."
+      "b b b b b b s s s s . ."
+      "b b b b b b s s s s . .";
+  }
+
+  .image-duo-grid.inverted {
+    grid-template-areas:
+      ". t t t t . . . . . . ."
+      ". t t t t . b b b b b b"
+      ". . s s s s b b b b b b"
+      ". . s s s s b b b b b b";
+  }
+
+  .body-block {
+    padding: unset;
+    max-width: 65ch;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .image-duo-grid {
     grid-template-areas:
-        ". . . . . . . . t t t ."
-        ". . b b b b b . t t t ."
-        ". . b b b b b s s s . ."
-        ". . b b b b b s s s . .";
+      ". . . . . . . . t t t ."
+      ". . b b b b b . t t t ."
+      ". . b b b b b s s s . ."
+      ". . b b b b b s s s . .";
+  }
+
+  .image-duo-grid.inverted {
+    grid-template-areas:
+    ". t t t . . . . . . . ."
+    ". t t t . b b b b b . ."
+    ". . s s s b b b b b . ."
+    ". . s s s b b b b b . .";
   }
 }
 
