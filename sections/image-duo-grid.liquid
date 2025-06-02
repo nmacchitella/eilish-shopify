@@ -1,27 +1,26 @@
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
 <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-  {%- capture sizes_attribute -%}
-    (max-width: 699px) 53vw, (max-width: 999px) 38vw, calc((100vw - 3rem * 2) / 2)
-  {%- endcapture -%}
-  <div class="image-duo-grid">
-    <div class="media-block media-block--big">
-      {%- if section.settings.large_image != blank and section.settings.large_image_link != blank -%}
-        <a href="{{ section.settings.large_image_link }}" class="large-image-link overflow-hidden">
-          {{ section.settings.large_image | image_url: width: section.settings.large_image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '300,400,500,600,800,1000,1200,1400,1600,1800' }}
-        </a>
-      {%- endif -%}
-    </div>
-    <div class="media-block media-block--small">
-      {%- if section.settings.small_image != blank and section.settings.small_image_link != blank -%}
-        <a href="{{ section.settings.small_image_link }}" class="small-image-link overflow-hidden">
-          {{ section.settings.small_image | image_url: width: section.settings.small_image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '300,400,500,600,800,1000,1200,1400,1600,1800' }}
-        </a>
-      {%- endif -%}
-    </div>
-    <div class="body-block">
-      <h2 class="article-heading">{{ section.settings.heading }}</h2>
-      <div class="article-description">{{ section.settings.description }}</div>
+  <div class="container-image-grid">
+    <div class="image-duo-grid">
+      <div class="media-block media-block--big">
+        {%- if section.settings.large_image != blank and section.settings.large_image_link != blank -%}
+          <a href="{{ section.settings.large_image_link }}" class="large-image-link overflow-hidden">
+            {{ section.settings.large_image | image_url: width: section.settings.large_image.width | image_tag: loading: 'lazy', sizes: '(min-width: 1000px) min(calc(100vw * (5 / 12)), calc(var(--ideal-width) / (5 / 12))), (min-width: 768px) 50vw, 100vw)', widths: '165,375,540,756' }}
+          </a>
+        {%- endif -%}
+      </div>
+      <div class="media-block media-block--small">
+        {%- if section.settings.small_image != blank and section.settings.small_image_link != blank -%}
+          <a href="{{ section.settings.small_image_link }}" class="small-image-link overflow-hidden">
+            {{ section.settings.small_image | image_url: width: section.settings.small_image.width | image_tag: loading: 'lazy', sizes: '(min-width: 1000px) min(calc(100vw * (5 / 12)), calc(var(--ideal-width) / (5 / 12))), (min-width: 768px) 50vw, 100vw)', widths: '165,375,540,756' }}
+          </a>
+        {%- endif -%}
+      </div>
+      <div class="body-block">
+        <h2 class="article-heading">{{ section.settings.heading }}</h2>
+        <div class="article-description">{{ section.settings.description }}</div>
+      </div>
     </div>
   </div>
 </div>

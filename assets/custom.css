@@ -368,6 +368,10 @@
         "t t t t . .";
 }
 
+.container-image-grid {
+  max-width: 1440px;
+}
+
 .image-duo-grid .media-block {
   height: 400px;
 }
@@ -402,6 +406,8 @@
 
 @media screen and (min-width: 768px) {
   .image-duo-grid {
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 24px;
@@ -414,7 +420,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   .image-duo-grid {
     grid-template-areas:
         ". . . . . . . . t t t ."
