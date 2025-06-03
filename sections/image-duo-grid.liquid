@@ -1,6 +1,6 @@
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
-<div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+<div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}{% if section.settings.pad_bottom %} pad-bottom{% endif %}">
   <div class="container-image-grid">
     <div class="image-duo-grid{% if section.settings.invert %} inverted{% endif %}">
       <div class="media-block media-block--big">
@@ -56,6 +56,12 @@
       "type": "checkbox",
       "id": "invert",
       "label": "Place text before images",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "pad_bottom",
+      "label": "Add extra bottom padding",
       "default": false
     },
     {

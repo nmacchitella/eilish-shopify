@@ -396,10 +396,11 @@
 .large-image-link,
 .small-image-link {
   display: flex;
+  height: 100%;
 }
 
 .body-block {
-  padding: 16px;
+  padding: 0 16px;
   grid-area: t;
   height: max-content;
   text-align: left;
@@ -426,6 +427,10 @@
       "b b b b b b . t t t t ."
       "b b b b b b s s s s . ."
       "b b b b b b s s s s . .";
+  }
+
+  .image-duo-grid .media-block {
+    height: 100%;
   }
 
   .image-duo-grid.inverted {
