@@ -137,7 +137,7 @@
         "separate_section_with_border": false,
         "content_width": "xs",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "image_duo_grid_LmK4YL": {
