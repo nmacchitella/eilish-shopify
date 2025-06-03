@@ -139,6 +139,22 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
+    },
+    "image_duo_grid_LmK4YL": {
+      "type": "image-duo-grid",
+      "name": "Image Duo Grid",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "invert": true,
+        "heading": "",
+        "description": "",
+        "large_image": "{{ article.metafields.custom.third_large_image.value }}",
+        "large_image_link": "shopify://products/mini-dress-scallop-edge-linen-white",
+        "small_image": "{{ article.metafields.custom.third_small_image.value }}",
+        "small_image_link": "shopify://products/wide-brim-sun-hat-white"
+      }
     }
   },
   "order": [
@@ -147,6 +163,7 @@
     "slideshow_3A9weB",
     "image_duo_grid_UV3wh4",
     "image_duo_grid_Gixe7k",
-    "rich_text_Wj8Ta9"
+    "rich_text_Wj8Ta9",
+    "image_duo_grid_LmK4YL"
   ]
 }
