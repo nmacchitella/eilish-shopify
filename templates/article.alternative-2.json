@@ -134,10 +134,10 @@
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-2",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "xs",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "image_duo_grid_LmK4YL": {
@@ -145,8 +145,8 @@
       "name": "Image Duo Grid",
       "settings": {
         "color_scheme": "scheme-2",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
         "invert": true,
         "heading": "",
         "description": "",
