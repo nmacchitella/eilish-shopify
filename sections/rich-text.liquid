@@ -23,7 +23,7 @@
 
             {%- when 'heading' -%}
               {%- if block.settings.text != blank -%}
-                <p class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+                <p class="{{ block.settings.heading_tag }}{% if template.name == 'article' %} article-heading{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
               {%- endif -%}
 
             {%- when 'richtext' -%}

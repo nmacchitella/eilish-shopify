@@ -343,8 +343,13 @@
 /* Article */
 
 .h1.article-heading,
-.h2.article-heading {
+.h2.article-heading,
+.h6.article-heading {
   font-size: .65rem;
+}
+
+.h1.article-hero-heading {
+  font-size: 12px;
 }
 
 .article-heading-section {
@@ -445,6 +450,10 @@
     padding: unset;
     max-width: 65ch;
   }
+
+  .h1.article-hero-heading {
+    font-size: 30px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -465,3 +474,8 @@
   }
 }
 
+@media screen and (max-width: 699px) {
+  .shopify-section:first-child:has([allow-transparent-header]) .content-over-media--fill.content-over-media--article-max {
+    max-height: 250px;
+  }
+}

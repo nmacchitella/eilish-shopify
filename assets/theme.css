@@ -674,6 +674,10 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   --content-over-media-height: calc(100vh - (var(--announcement-bar-height, 0px)));
 }
 
+.shopify-section:first-child:has([allow-transparent-header]) .content-over-media--fill.content-over-media--article-max {
+  --content-over-media-height: 250px;
+}
+
 @supports (height: 100svh) {
   .content-over-media--fill {
     --content-over-media-height: calc(100svh - var(--sticky-area-height));
@@ -686,11 +690,21 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   .shopify-section:first-child:has([allow-transparent-header]) .content-over-media--fill {
     --content-over-media-height: calc(100svh - (var(--announcement-bar-height, 0px)));
   }
+
+  .shopify-section:first-child:has([allow-transparent-header]) .content-over-media--fill.content-over-media--article-max {
+    --content-over-media-height: 250px;
+  }
 }
 
 @media screen and (min-width: 700px) {
   .content-over-media {
     --content-over-media-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .shopify-section:first-child:has([allow-transparent-header]) .content-over-media--fill.content-over-media--article-max {
+    --content-over-media-height: clamp(30rem, 125vw, 58rem);
   }
 }
 
