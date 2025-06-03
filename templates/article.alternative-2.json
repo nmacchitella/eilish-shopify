@@ -107,7 +107,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "invert": true,
         "heading": "{{ article.metafields.custom.second_section_heading.value }}",
         "description": "{{ article.metafields.custom.second_section_description | metafield_tag }}",
@@ -146,7 +146,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "invert": true,
         "heading": "",
         "description": "",
