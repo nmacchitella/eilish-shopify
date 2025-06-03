@@ -45,6 +45,7 @@
         "image_EnDiVC": {
           "type": "image",
           "settings": {
+            "image": "{{ article.metafields.custom.hero_image.value }}",
             "subheading": "",
             "title": "Constantine",
             "mobile_text_position": "place-self-center text-center",
@@ -116,137 +117,27 @@
         "small_image_link": "shopify://products/shell-sun-hat-almond-cerulean"
       }
     },
-    "media_grid_fiTRGL": {
-      "type": "media-grid",
+    "rich_text_Wj8Ta9": {
+      "type": "rich-text",
       "blocks": {
-        "image_kQUydB": {
-          "type": "image",
+        "heading_Y7TQCz": {
+          "type": "heading",
           "settings": {
-            "color_scheme": "",
-            "image": "{{ article.metafields.custom.media_grid_image_1.value }}",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_ahYn9Y": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "{{ article.metafields.custom.media_grid_image_2.value }}",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_V9MMte": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "{{ article.metafields.custom.media_grid_image_3.value }}",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_3ePbg4": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "{{ article.metafields.custom.media_grid_image_4.value }}",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_zYLKhE": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "{{ article.metafields.custom.media_grid_image_5.value }}",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_aNpddB": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "{{ article.metafields.custom.media_grid_image_6.value }}",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "text": "{{ article.metafields.custom.third_section_heading.value }}",
+            "heading_tag": "h6"
           }
         }
       },
       "block_order": [
-        "image_kQUydB",
-        "image_ahYn9Y",
-        "image_V9MMte",
-        "image_3ePbg4",
-        "image_zYLKhE",
-        "image_aNpddB"
+        "heading_Y7TQCz"
       ],
-      "name": "t:sections.media_grid.presets.media_grid.name",
+      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "color_scheme": "scheme-2",
-        "separate_section_with_border": false,
-        "desktop_row_height": 240,
-        "mobile_row_height": 200,
-        "section_width": "lg",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     }
   },
@@ -256,6 +147,6 @@
     "slideshow_3A9weB",
     "image_duo_grid_UV3wh4",
     "image_duo_grid_Gixe7k",
-    "media_grid_fiTRGL"
+    "rich_text_Wj8Ta9"
   ]
 }
