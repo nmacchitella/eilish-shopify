@@ -4,17 +4,33 @@
   <div class="container-image-grid">
     <div class="image-duo-grid{% if section.settings.invert %} inverted{% endif %}">
       <div class="media-block media-block--big">
-        {%- if section.settings.large_image != blank and section.settings.large_image_link != blank -%}
+        {%- if section.settings.large_image != blank -%}
+          {%- if section.settings.large_image_link != blank -%}
           <a href="{{ section.settings.large_image_link }}" class="large-image-link overflow-hidden">
+          {%- else -%}
+          <div class="large-image-link overflow-hidden">
+          {%- endif -%}
             {{ section.settings.large_image | image_url: width: section.settings.large_image.width | image_tag: loading: 'lazy', sizes: '(min-width: 1000px) min(calc(100vw * (5 / 12)), calc(var(--ideal-width) / (5 / 12))), (min-width: 768px) 50vw, 100vw)', widths: '165,375,540,756' }}
+          {%- if section.settings.large_image_link != blank -%}
           </a>
+          {%- else -%}
+          </div>
+          {%- endif -%}
         {%- endif -%}
       </div>
       <div class="media-block media-block--small">
-        {%- if section.settings.small_image != blank and section.settings.small_image_link != blank -%}
+        {%- if section.settings.small_image != blank -%}
+          {%- if section.settings.small_image_link != blank -%}
           <a href="{{ section.settings.small_image_link }}" class="small-image-link overflow-hidden">
+          {%- else -%}
+          <div class="small-image-link overflow-hidden">
+          {%- endif -%}
             {{ section.settings.small_image | image_url: width: section.settings.small_image.width | image_tag: loading: 'lazy', sizes: '(min-width: 1000px) min(calc(100vw * (5 / 12)), calc(var(--ideal-width) / (5 / 12))), (min-width: 768px) 50vw, 100vw)', widths: '165,375,540,756' }}
+          {%- if section.settings.small_image_link != blank -%}
           </a>
+          {%- else -%}
+          </div>
+          {%- endif -%}
         {%- endif -%}
       </div>
       <div class="body-block">
