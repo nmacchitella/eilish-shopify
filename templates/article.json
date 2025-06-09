@@ -47,6 +47,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "invert": false,
+        "pad_bottom": false,
         "heading": "{{ article.metafields.custom.first_section_heading.value }}",
         "description": "{{ article.metafields.custom.first_section_description | metafield_tag }}",
         "large_image": "{{ article.metafields.custom.first_large_image.value }}",
@@ -63,6 +64,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": true,
         "invert": true,
+        "pad_bottom": false,
         "heading": "{{ article.metafields.custom.second_section_heading.value }}",
         "description": "{{ article.metafields.custom.second_section_description | metafield_tag }}",
         "large_image": "{{ article.metafields.custom.second_large_image.value }}",
@@ -203,6 +205,43 @@
         "title": "",
         "content": ""
       }
+    },
+    "rich_text_4Pf8ay": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_BzYWwR": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_4WLUGe": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Ykramf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BzYWwR",
+        "heading_4WLUGe",
+        "richtext_Ykramf"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -210,6 +249,7 @@
     "prev-next-blog-posts",
     "image_duo_grid_UV3wh4",
     "image_duo_grid_Gixe7k",
-    "media_grid_fiTRGL"
+    "media_grid_fiTRGL",
+    "rich_text_4Pf8ay"
   ]
 }

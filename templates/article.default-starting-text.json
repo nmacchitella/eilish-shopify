@@ -39,6 +39,43 @@
         "show_read_more": true
       }
     },
+    "rich_text_DVznTN": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_gz9an9": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_RCmqaJ": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.first_section_heading.value }}",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_CH8dCJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.first_section_description | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gz9an9",
+        "heading_RCmqaJ",
+        "richtext_CH8dCJ"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "image_duo_grid_UV3wh4": {
       "type": "image-duo-grid",
       "name": "Image Duo Grid",
@@ -247,6 +284,7 @@
   "order": [
     "main",
     "prev-next-blog-posts",
+    "rich_text_DVznTN",
     "image_duo_grid_UV3wh4",
     "image_duo_grid_Gixe7k",
     "media_grid_fiTRGL",
