@@ -45,7 +45,7 @@
         "subheading_gz9an9": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "{{ article.metafields.custom.alternative_image_heading.value }}"
           }
         },
         "heading_RCmqaJ": {
