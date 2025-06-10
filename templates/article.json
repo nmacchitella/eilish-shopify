@@ -39,6 +39,28 @@
         "show_read_more": true
       }
     },
+    "rich_text_4Pf8ay": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_BzYWwR": {
+          "type": "subheading",
+          "settings": {
+            "text": "{{ article.metafields.custom.alternative_image_heading.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BzYWwR"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "image_duo_grid_UV3wh4": {
       "type": "image-duo-grid",
       "name": "Image Duo Grid",
@@ -205,51 +227,14 @@
         "title": "",
         "content": ""
       }
-    },
-    "rich_text_4Pf8ay": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_BzYWwR": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_4WLUGe": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_Ykramf": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_BzYWwR",
-        "heading_4WLUGe",
-        "richtext_Ykramf"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
     }
   },
   "order": [
     "main",
     "prev-next-blog-posts",
+    "rich_text_4Pf8ay",
     "image_duo_grid_UV3wh4",
     "image_duo_grid_Gixe7k",
-    "media_grid_fiTRGL",
-    "rich_text_4Pf8ay"
+    "media_grid_fiTRGL"
   ]
 }
