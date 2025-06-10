@@ -50,6 +50,7 @@
         },
         "heading_RCmqaJ": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "{{ article.metafields.custom.first_section_heading.value }}",
             "heading_tag": "h1"
