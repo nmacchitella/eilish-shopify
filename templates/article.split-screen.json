@@ -44,12 +44,14 @@
       "blocks": {
         "subheading_UYEK3V": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Subheading"
           }
         },
         "heading_YHCbC4": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Image with text",
             "heading_tag": "h1"
@@ -58,7 +60,7 @@
         "richtext_hkGEFm": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>{{ article.metafields.custom.first_section_description | metafield_tag }}"
           }
         }
       },
