@@ -27,6 +27,7 @@
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "apparition_delay": 5,
