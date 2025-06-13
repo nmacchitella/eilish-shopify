@@ -40,12 +40,20 @@
             "title": "Marketing & Press",
             "details": "<p>press@eilishstudio.com</p>"
           }
+        },
+        "contact_QtgPqk": {
+          "type": "contact",
+          "settings": {
+            "title": "Social Media",
+            "details": "<p>@eilish_studio</p>"
+          }
         }
       },
       "block_order": [
         "contact_PRzngC",
         "contact_MVcNRq",
-        "contact_eMP4Kj"
+        "contact_eMP4Kj",
+        "contact_QtgPqk"
       ],
       "name": "Contact Grid",
       "settings": {
