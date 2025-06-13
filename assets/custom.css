@@ -494,3 +494,27 @@
     max-height: 250px;
   }
 }
+
+/* Contact Page */
+
+.contact-page-content {
+  width: 100%;
+}
+
+.contact-grid-block {
+  display: grid;
+  grid-template-columns: 124px 1fr;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.contact-grid-text {
+  padding: 5px;
+  text-align: left;
+}
+
+.contact-grid-block,
+.contact-grid-block p,
+.contact-grid-block div {
+  font-size: .8rem;
+}

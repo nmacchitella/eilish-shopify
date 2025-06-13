@@ -1,0 +1,87 @@
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+<div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+  <div class="container container--{{ section.settings.page_width }}">
+    <div class="section-stack">
+      <div class="prose page-content justify-self-center text-center contact-page-content">
+        <div class="contact-grid">
+          {%- for block in section.blocks -%}
+            <div class="contact-grid-block">
+              {%- if block.settings.title != blank -%}
+                <p class="contact-grid-text">{{ block.settings.title }}</p>
+              {%- endif -%}
+              {%- if block.settings.details != blank -%}
+                <div class="prose contact-grid-text">{{ block.settings.details }}</div>
+              {%- endif -%}
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact Grid",
+  "class": "shopify-section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_vertical_spacing",
+      "label": "t:global.spacing.remove_vertical_spacing",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "pad_bottom",
+      "label": "Add extra bottom padding",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "contact",
+      "name": "Contact",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "details",
+          "label": "Details"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact Grid",
+    }
+  ]
+}
+{% endschema %}
