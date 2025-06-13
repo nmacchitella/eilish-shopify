@@ -26,10 +26,18 @@
             "title": "General Enquiries",
             "details": "<p>info@eilishstudio.com</p>"
           }
+        },
+        "contact_MVcNRq": {
+          "type": "contact",
+          "settings": {
+            "title": "Wholesale",
+            "details": "<p>sales@eilishstudio.com</p>"
+          }
         }
       },
       "block_order": [
-        "contact_PRzngC"
+        "contact_PRzngC",
+        "contact_MVcNRq"
       ],
       "name": "Contact Grid",
       "settings": {
