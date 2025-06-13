@@ -33,11 +33,19 @@
             "title": "Wholesale",
             "details": "<p>sales@eilishstudio.com</p>"
           }
+        },
+        "contact_eMP4Kj": {
+          "type": "contact",
+          "settings": {
+            "title": "Marketing & Press",
+            "details": "<p>press@eilishstudio.com</p>"
+          }
         }
       },
       "block_order": [
         "contact_PRzngC",
-        "contact_MVcNRq"
+        "contact_MVcNRq",
+        "contact_eMP4Kj"
       ],
       "name": "Contact Grid",
       "settings": {
