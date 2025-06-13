@@ -17,6 +17,29 @@
         "page_width": "xs"
       }
     },
+    "contact_grid_nypdKy": {
+      "type": "contact-grid",
+      "blocks": {
+        "contact_PRzngC": {
+          "type": "contact",
+          "settings": {
+            "title": "General Enquiries",
+            "details": "<p>info@eilishstudio.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "contact_PRzngC"
+      ],
+      "name": "Contact Grid",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "heading": "",
+        "pad_bottom": false
+      }
+    },
     "contact-form": {
       "type": "contact",
       "disabled": true,
@@ -31,6 +54,7 @@
   },
   "order": [
     "main",
+    "contact_grid_nypdKy",
     "contact-form"
   ]
 }
