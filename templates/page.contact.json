@@ -31,21 +31,21 @@
           "type": "contact",
           "settings": {
             "title": "Wholesale",
-            "details": "<p></p><p>sales@eilishstudio.com</p>"
+            "details": "<p>sales@eilishstudio.com</p>"
           }
         },
         "contact_eMP4Kj": {
           "type": "contact",
           "settings": {
             "title": "Marketing & Press",
-            "details": "<p></p><p>press@eilishstudio.com</p>"
+            "details": "<p>press@eilishstudio.com</p>"
           }
         },
         "contact_QtgPqk": {
           "type": "contact",
           "settings": {
             "title": "Social Media",
-            "details": "<p></p><p>@eilish_studio</p>"
+            "details": "<p><a href=\"https://www.instagram.com/eilish_studio/\" title=\"https://www.instagram.com/eilish_studio/\">@eilish_studio</a></p>"
           }
         }
       },
