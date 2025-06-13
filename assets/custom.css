@@ -501,6 +501,10 @@
   width: 100%;
 }
 
+.contact-grid {
+  border-top: 1px solid black;
+}
+
 .contact-grid-block {
   display: grid;
   grid-template-columns: 124px 1fr;
@@ -511,10 +515,21 @@
 .contact-grid-text {
   padding: 5px;
   text-align: left;
+  color: #1C1C1C;
 }
 
 .contact-grid-block,
 .contact-grid-block p,
 .contact-grid-block div {
   font-size: .8rem;
+}
+
+div.prose.contact-grid-text {
+  margin-block-start: unset;
+}
+
+@media screen and (min-width: 700px) {
+  .contact-grid-block {
+    grid-template-columns: 175px 1fr;
+  }
 }
