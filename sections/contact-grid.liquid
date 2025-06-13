@@ -3,7 +3,12 @@
 <div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
   <div class="container container--{{ section.settings.page_width }}">
     <div class="section-stack">
-      <div class="prose page-content justify-self-center text-center contact-page-content">
+      <div class="page-content justify-self-center text-center contact-page-content">
+        {%- if section.settings.heading -%}
+          <div class="section-header page-header justify-self-center text-center">
+            <h2 class="contact-grid-heading">{{ section.settings.heading }}</h2>
+          </div>
+        {%- endif -%}
         <div class="contact-grid">
           {%- for block in section.blocks -%}
             <div class="contact-grid-block">
@@ -11,7 +16,7 @@
                 <p class="contact-grid-text">{{ block.settings.title }}</p>
               {%- endif -%}
               {%- if block.settings.details != blank -%}
-                <div class="prose contact-grid-text">{{ block.settings.details }}</div>
+                <div class="contact-grid-text">{{ block.settings.details }}</div>
               {%- endif -%}
             </div>
           {%- endfor -%}
