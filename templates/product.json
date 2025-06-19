@@ -82,7 +82,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Payment & Shipping",
-            "content": "<ul><li>Free UPS Express shipping on orders above 100 USD</li><li>UPS Express 1-3 business days, 20 USD</li><li>All import duties and import taxes included.</li></ul>",
+            "content": "<ul><li>Free UPS Express shipping on orders above 200 USD</li><li>All import duties and import taxes included.</li></ul>",
             "liquid": "",
             "page": ""
           }
