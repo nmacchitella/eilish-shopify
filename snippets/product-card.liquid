@@ -151,7 +151,13 @@ Supported variables
             {%- endif -%}
 
             {%- if show_prices -%}
-              {%- render 'price-list', product: product, context: 'card' -%}
+              {%- if product.available -%}
+                {%- render 'price-list', product: product, context: 'card' -%}
+              {%- else -%}
+                <span class="price price--sold-out">
+                  {{ 'products.general.sold_out' | t }}
+                </span>
+              {%- endif -%}
             {%- endif -%}
           </div>
         {%- endif -%}
