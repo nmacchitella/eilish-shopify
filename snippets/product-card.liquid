@@ -154,7 +154,7 @@ Supported variables
               {%- if product.available -%}
                 {%- render 'price-list', product: product, context: 'card' -%}
               {%- else -%}
-                <span class="price badge--sold-out">
+                <span class="price badge--sold-out" style="background: none; background-color: transparent;">
                   SOLD OUT
                 </span>
               {%- endif -%}
